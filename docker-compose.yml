@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  mhw-nginx:
+    build:
+      context: .
+      dockerfile: ./docker/nginx/Dockerfile
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    command: nginx -g "daemon off;"
+    links:
+      - mhw-php
+    ports:
+      - '8989:80'
+    networks:
+      - mhw-network
+  mhw-php:
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    command: php-fpm
+    ports:
+      - 9000
+    networks:
+      - mhw-network
+
+networks:
+  mhw-network:
+    name: mhw-network
+    driver: bridge
