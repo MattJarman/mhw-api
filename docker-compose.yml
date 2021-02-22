@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3'
 services:
   mhw-nginx:
     build:
@@ -13,21 +13,23 @@ services:
     ports:
       - '8989:80'
     networks:
-      - mhw-network
+      - sail
   mhw-php:
-    build:
-      context: .
-      dockerfile: ./docker/php/Dockerfile
-    working_dir: /var/www/html
-    volumes:
-      - ./:/var/www/html
-    command: php-fpm
-    ports:
-      - 9000
-    networks:
-      - mhw-network
-
+      build:
+          context: ./docker/php
+          dockerfile: Dockerfile
+          args:
+              WWWGROUP: '${WWWGROUP}'
+      image: sail-8.0/app
+      ports:
+          - '${APP_PORT:-9000}'
+      environment:
+          WWWUSER: '${WWWUSER}'
+          LARAVEL_SAIL: 1
+      volumes:
+          - '.:/var/www/html'
+      networks:
+          - sail
 networks:
-  mhw-network:
-    name: mhw-network
-    driver: bridge
+    sail:
+        driver: bridge
