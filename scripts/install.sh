@@ -1,18 +1,33 @@
 #!/usr/bin/env bash
 
-ROOT_DIR="$(dirname "$(realpath "$0")")/.."
+# Colours
+NO_COLOUR=$'\033[0m'
+LIGHT_GREEN=$'\033[1;32m'
 
-[ ! -f .env ] && cp .env.example .env
+#######################################
+# Prints a message
+#
+# @param message Message to print
+#######################################
+log () {
+  printf >&2 "%s%s%s\r\n" "$LIGHT_GREEN" "$@" "$NO_COLOUR"
+}
 
-if [ ! -d "$ROOT_DIR/vendor" ]; then
-    docker-compose run --rm \
-        mhw-php \
-        composer install
+if [ ! -f .env ]; then
+    log "Couldn't find an env file, creating."
+    cp .env.example .env
+    log "Done."
 fi
 
-source .env
+log "Installing dependencies."
+docker-compose run --rm \
+    --user "$(id -u)":"$(id -g)" \
+    mhw-php \
+    composer install
 
-if [ -n "$APP_NAME" ]; then
+source .env
+if [ -z "$APP_KEY" ]; then
+    log "No app key set, generating."
     docker-compose run --rm \
         mhw-php \
         php artisan key:generate
