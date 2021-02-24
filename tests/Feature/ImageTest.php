@@ -19,4 +19,18 @@ class ImageTest extends TestCase
 
         $response->assertNotFound();
     }
+
+    public function testEquipmentSuccess(): void
+    {
+        $response = $this->get('/api/image/equipment/1');
+
+        $response->assertOk();
+    }
+
+    public function testEquipmentNotFound(): void
+    {
+        $response = $this->get('/api/image/equipment/-39279');
+
+        $response->assertNotFound();
+    }
 }
