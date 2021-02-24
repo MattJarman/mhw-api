@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('image')->group(static function () {
     Route::get('/monster/{id}', [ImageController::class, 'monster'])->name('image.monster');
+    Route::get('/equipment/{name}', [ImageController::class, 'equipment'])->name('image.equipment');
 });
