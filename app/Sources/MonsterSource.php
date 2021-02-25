@@ -4,6 +4,7 @@ namespace App\Sources;
 
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Database\Connection as DB;
+use stdClass;
 
 class MonsterSource
 {
@@ -16,7 +17,7 @@ class MonsterSource
 
     /**
      * @param string $language
-     * @return array<string, mixed>[]
+     * @return stdClass[]
      */
     public function index(string $language): array
     {

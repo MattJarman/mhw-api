@@ -2,11 +2,13 @@
 
 namespace App\Repositories;
 
+use stdClass;
+
 interface BaseRepository
 {
     /**
      * @param string $language
-     * @return array<string, mixed>[]
+     * @return stdClass[]
      */
     public function index(string $language): array;
 
