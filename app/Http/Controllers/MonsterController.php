@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mappers\Monster\MonsterIndexMapper;
 use App\Repositories\MonsterRepository;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\App;
@@ -17,7 +18,10 @@ class MonsterController extends Controller
 
     public function index(): JsonResponse
     {
-        return new JsonResponse($this->monsterRepository->index(App::getLocale()));
+        $index = $this->monsterRepository->index(App::getLocale());
+        $response = (new MonsterIndexMapper($index))->get();
+
+        return new JsonResponse($response);
     }
 
     public function show(): JsonResponse

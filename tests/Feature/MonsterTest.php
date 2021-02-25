@@ -18,7 +18,7 @@ class MonsterTest extends TestCase
             'name' => 'Aptonoth',
             'size' => 'small',
             'species' => null,
-            'url' => 'http:/localhost:8989/api/monster/1'
+            'url' => 'http://localhost/api/monster/1'
         ];
 
         self::assertNotEmpty($response->getOriginalContent());
@@ -37,7 +37,7 @@ class MonsterTest extends TestCase
             'name' => 'アプトノス',
             'size' => 'small',
             'species' => null,
-            'url' => 'http:/localhost:8989/api/monster/1'
+            'url' => 'http://localhost/api/monster/1'
         ];
 
         self::assertNotEmpty($response->getOriginalContent());
