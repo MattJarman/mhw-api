@@ -34,7 +34,7 @@ class SetLocaleTest extends TestCase
         $middleware->handle($request, static function ($req) {});
     }
 
-    #[ArrayShape(['It sets the locale to fr' => "string[]", 'It sets the locale to ja' => "string[]"])]
+    #[ArrayShape(['It sets the locale to fr' => 'string[]', 'It sets the locale to ja' => 'string[]'])]
     public function localeDataProvider(): array
     {
         return [
