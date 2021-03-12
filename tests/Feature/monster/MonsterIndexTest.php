@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Feature\monster;
 
 use Tests\TestCase;
 
-class MonsterTest extends TestCase
+class MonsterIndexTest extends TestCase
 {
     public function testMonsterIndex(): void
     {
