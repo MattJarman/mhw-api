@@ -11,7 +11,6 @@ case "$1" in
     ;;
 "phpstan")
     shift
-    echo "$@"
     docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php ./vendor/bin/phpstan "$@"
     ;;
 "tests")
