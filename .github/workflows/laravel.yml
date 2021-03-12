@@ -29,14 +29,14 @@ jobs:
       uses: "actions/cache@v2.0.0"
       with:
         path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-        key: "php-${{ matrix.php-version }}-v2-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-        restore-keys: "php-${{ matrix.php-version }}-v2-composer-${{ matrix.dependencies }}-"
+        key: "php-${{ matrix.php-version }}-v3-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
+        restore-keys: "php-${{ matrix.php-version }}-v3-composer-${{ matrix.dependencies }}-"
 
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
 
     - name: Install Dependencies
-      run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress
+      run: composer install -q --no-ansi --no-interaction --no-progress --prefer-dist
 
     - name: Generate key
       run: php artisan key:generate
