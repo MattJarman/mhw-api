@@ -8,6 +8,7 @@ use App\Http\Middleware\Authenticate;
 use App\Http\Middleware\EncryptCookies;
 use App\Http\Middleware\PreventRequestsDuringMaintenance;
 use App\Http\Middleware\RedirectIfAuthenticated;
+use App\Http\Middleware\SetLocale;
 use App\Http\Middleware\TrimStrings;
 use App\Http\Middleware\TrustProxies;
 use App\Http\Middleware\VerifyCsrfToken;
@@ -36,7 +37,7 @@ class Kernel extends HttpKernel
      *
      * @var array<mixed>
      */
-    protected array $middleware = [
+    protected $middleware = [
         // \App\Http\Middleware\TrustHosts::class,
         TrustProxies::class,
         HandleCors::class,
@@ -51,7 +52,7 @@ class Kernel extends HttpKernel
      *
      * @var array<string, array<mixed>>
      */
-    protected array $middlewareGroups = [
+    protected $middlewareGroups = [
         'web' => [
             EncryptCookies::class,
             AddQueuedCookiesToResponse::class,
@@ -75,7 +76,7 @@ class Kernel extends HttpKernel
      *
      * @var array<string, mixed>
      */
-    protected array $routeMiddleware = [
+    protected $routeMiddleware = [
         'auth' => Authenticate::class,
         'auth.basic' => AuthenticateWithBasicAuth::class,
         'cache.headers' => SetCacheHeaders::class,

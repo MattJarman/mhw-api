@@ -14,14 +14,14 @@ class Handler extends ExceptionHandler
      *
      * @var array<string>
      */
-    protected array $dontReport = [];
+    protected $dontReport = [];
 
     /**
      * A list of the inputs that are never flashed for validation exceptions.
      *
      * @var array<string>
      */
-    protected array $dontFlash = [
+    protected $dontFlash = [
         'password',
         'password_confirmation',
     ];

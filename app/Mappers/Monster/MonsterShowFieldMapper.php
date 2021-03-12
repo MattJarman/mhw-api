@@ -82,8 +82,6 @@ class MonsterShowFieldMapper extends BaseMapper
     /**
      * @return bool[]
      */
-    #[ArrayShape(['pitfall' => 'bool', 'shock' => 'bool', 'vine' => 'bool'])]
-
     public function getTraps(): array
     {
         return [

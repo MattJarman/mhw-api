@@ -30,7 +30,7 @@ class MonsterRepository implements BaseRepository
      * @param int    $id       Id of monster
      * @param string $language Language to get results for
      *
-     * @return stdClass[]
+     * @return array<string, mixed>
      */
     public function show(int $id, string $language): array
     {

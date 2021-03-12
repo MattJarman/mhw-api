@@ -12,6 +12,11 @@ class SetLocale
 {
     /**
      * Handle an incoming request.
+     *
+     * @param Request $request Incoming request
+     * @param Closure $next    Closure
+     *
+     * @return mixed Closure
      */
     public function handle(Request $request, Closure $next): mixed
     {
