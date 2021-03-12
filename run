@@ -1,3 +1,28 @@
 #!/usr/bin/env bash
 
-docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php "$@"
+case "$1" in
+"phpcs")
+    shift
+    docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php ./vendor/bin/phpcs "$@"
+    ;;
+"phpcbf")
+    shift
+    docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php ./vendor/bin/phpcbf "$@"
+    ;;
+"phpstan")
+    shift
+    echo "$@"
+    docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php ./vendor/bin/phpstan "$@"
+    ;;
+"tests")
+    shift
+    docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php ./vendor/bin/phpunit "$@"
+    ;;
+"tinker")
+    shift
+    docker-compose run --rm mhw-php php artisan tinker
+    ;;
+*)
+    docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php "$*"
+    ;;
+esac

@@ -19,7 +19,7 @@ class ItemIndexTest extends TestCase
             'id' => 1,
             'name' => 'Potion',
             'category' => 'item',
-            'url' => 'http://localhost/api/item/1'
+            'url' => 'http://localhost/api/item/1',
         ];
 
         self::assertNotEmpty($response->getOriginalContent());
@@ -37,7 +37,7 @@ class ItemIndexTest extends TestCase
             'id' => 1,
             'name' => '回復薬',
             'category' => 'item',
-            'url' => 'http://localhost/api/item/1'
+            'url' => 'http://localhost/api/item/1',
         ];
 
         self::assertNotEmpty($response->getOriginalContent());

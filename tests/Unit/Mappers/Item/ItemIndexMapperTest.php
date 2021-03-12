@@ -12,7 +12,7 @@ class ItemIndexMapperTest extends TestCase
     private const ITEM = [
         'id' => '1',
         'name' => 'Potion',
-        'category' => 'item'
+        'category' => 'item',
     ];
 
     public function testMapperReturnsCorrectResult(): void
@@ -23,8 +23,8 @@ class ItemIndexMapperTest extends TestCase
                 'id' => 1,
                 'name' => 'Potion',
                 'category' => 'item',
-                'url' => 'http://localhost/api/item/' . self::ITEM['id']
-            ]
+                'url' => 'http://localhost/api/item/' . self::ITEM['id'],
+            ],
         ];
 
         $actual = (new ItemIndexMapper($items))->get();
