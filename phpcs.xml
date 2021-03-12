@@ -11,7 +11,7 @@
     <exclude-pattern>*/vendor/*</exclude-pattern>
     <exclude-pattern>*/public/*</exclude-pattern>
     <exclude-pattern>*/storage/*</exclude-pattern>
-    <rule ref="vendor/doctrine/coding-standard">
+    <rule ref="Doctrine">
         <exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly"/>
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
         <exclude name="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
