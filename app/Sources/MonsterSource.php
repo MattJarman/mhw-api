@@ -1,9 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Sources;
 
-use Illuminate\Database\DatabaseManager;
 use Illuminate\Database\Connection as DB;
+use Illuminate\Database\DatabaseManager;
 use stdClass;
 
 class MonsterSource
@@ -16,12 +18,12 @@ class MonsterSource
     }
 
     /**
-     * @param string $language
      * @return stdClass[]
      */
     public function index(string $language): array
     {
-        return $this->db->select('
+        return $this->db->select(
+            '
             SELECT m.id,
                     mt.name,
                     m.size,
@@ -30,20 +32,14 @@ class MonsterSource
                 JOIN monster_text mt on mt.id = m.id
             WHERE mt.lang_id = :language
         ',
-            [
-                'language' => $language,
-            ]
+            ['language' => $language]
         );
     }
 
-    /**
-     * @param int $id
-     * @param string $language
-     * @return stdClass
-     */
     public function getDetails(int $id, string $language): stdClass
     {
-        return $this->db->selectOne('
+        return $this->db->selectOne(
+            '
             SELECT m.id,
                    mt.name,
                    m.size,
@@ -91,19 +87,18 @@ class MonsterSource
         ',
             [
                 'id' => $id,
-                'language' => $language
+                'language' => $language,
             ]
         );
     }
 
     /**
-     * @param int $id
-     * @param string $language
      * @return stdClass[]
      */
     public function getHabitats(int $id, string $language): array
     {
-        return $this->db->select("
+        return $this->db->select(
+            '
             SELECT lt.name,
                    mh.start_area,
                    mh.move_area,
@@ -114,22 +109,21 @@ class MonsterSource
             WHERE mt.lang_id = :language
                     AND lt.lang_id = :language
                     AND mt.id = :id
-        ",
+        ',
             [
                 'id' => $id,
-                'language' => $language
+                'language' => $language,
             ]
         );
     }
 
     /**
-     * @param int $id
-     * @param string $language
      * @return stdClass[]
      */
     public function getRewards(int $id, string $language): array
     {
-        return $this->db->select("
+        return $this->db->select(
+            '
             SELECT i.id,
                    it.name,
                    mr.rank,
@@ -147,22 +141,21 @@ class MonsterSource
               AND mrct.lang_id = :language
               AND it.lang_id = :language
               AND mt.id = :id;
-        ",
+        ',
             [
                 'id' => $id,
-                'language' => $language
+                'language' => $language,
             ]
         );
     }
 
     /**
-     * @param int $id
-     * @param string $language
      * @return stdClass[]
      */
     public function getBreaks(int $id, string $language): array
     {
-        return $this->db->select("
+        return $this->db->select(
+            '
             SELECT mbt.part_name AS name,
                    mb.flinch,
                    mb.wound,
@@ -174,22 +167,21 @@ class MonsterSource
             WHERE mt.lang_id = :language
               AND mbt.lang_id = :language
               AND mt.id = :id
-        ",
+        ',
             [
                 'id' => $id,
-                'language' => $language
+                'language' => $language,
             ]
         );
     }
 
     /**
-     * @param int $id
-     * @param string $language
      * @return stdClass[]
      */
     public function getHitZones(int $id, string $language): array
     {
-        return $this->db->select("
+        return $this->db->select(
+            '
             SELECT mht.name,
                    mh.cut,
                    mh.impact,
@@ -206,10 +198,10 @@ class MonsterSource
             WHERE mt.lang_id = :language
               AND mht.lang_id = :language
               AND mt.id = :id
-        ",
+        ',
             [
                 'id' => $id,
-                'language' => $language
+                'language' => $language,
             ]
         );
     }

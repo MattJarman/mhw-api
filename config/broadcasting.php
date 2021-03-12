@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
 
     /*
@@ -51,13 +53,9 @@ return [
             'connection' => 'default',
         ],
 
-        'log' => [
-            'driver' => 'log',
-        ],
+        'log' => ['driver' => 'log'],
 
-        'null' => [
-            'driver' => 'null',
-        ],
+        'null' => ['driver' => 'null'],
 
     ],
 

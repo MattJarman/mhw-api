@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests\Unit\Mappers\Monster;
 
 use App\Mappers\Monster\MonsterIndexMapper;
@@ -16,7 +18,7 @@ class MonsterIndexMapperTest extends TestCase
 
     public function testMapperReturnsCorrectResult(): void
     {
-        $monsters = [(object)self::MONSTER];
+        $monsters = [(object) self::MONSTER];
         $expected = [
             [
                 'id' => self::MONSTER['id'],

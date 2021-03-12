@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use JetBrains\PhpStorm\ArrayShape;
 
 class MonsterShowRequest extends FormRequest
 {
@@ -12,22 +13,21 @@ class MonsterShowRequest extends FormRequest
      *
      * @return array<string, string>
      */
-    #[ArrayShape(['monster' => "string"])]
     public function rules(): array
     {
-        return [
-            'monster' => 'exists:monster,id'
-        ];
+        return ['monster' => 'exists:monster,id'];
     }
 
     /**
-     * @param null $keys
+     * @param array<string, string>|mixed|null $keys
+     *
      * @return mixed[]
      */
     public function all($keys = null): array
     {
         $request = parent::all();
         $request['monster'] = $this->route('monster');
+
         return $request;
-}
+    }
 }

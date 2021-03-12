@@ -1,9 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Mappers\Monster;
 
 use App\Mappers\BaseIndexMapper;
 use stdClass;
+
+use function route;
 
 class MonsterIndexMapper implements BaseIndexMapper
 {
@@ -11,7 +15,6 @@ class MonsterIndexMapper implements BaseIndexMapper
     private array $monsters;
 
     /**
-     * MonsterIndexMapper constructor.
      * @param stdClass[] $monsters
      */
     public function __construct(array $monsters)
@@ -19,6 +22,9 @@ class MonsterIndexMapper implements BaseIndexMapper
         $this->monsters = $this->map($monsters);
     }
 
+    /**
+     * @return array<string, mixed>[]
+     */
     public function get(): array
     {
         return $this->monsters;
@@ -26,6 +32,7 @@ class MonsterIndexMapper implements BaseIndexMapper
 
     /**
      * @param stdClass[] $monsters
+     *
      * @return array<string, mixed>[]
      */
     private function map(array $monsters): array
@@ -37,7 +44,7 @@ class MonsterIndexMapper implements BaseIndexMapper
                 'name' => $monster->name,
                 'size' => $monster->size,
                 'species' => $monster->ecology,
-                'url' => route('monster.show', $monster->id)
+                'url' => route('monster.show', $monster->id),
             ];
         }
 

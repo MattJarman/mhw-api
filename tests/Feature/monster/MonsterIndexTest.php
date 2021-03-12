@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests\Feature\monster;
 
 use Tests\TestCase;
@@ -18,7 +20,7 @@ class MonsterIndexTest extends TestCase
             'name' => 'Aptonoth',
             'size' => 'small',
             'species' => null,
-            'url' => 'http://localhost/api/monster/1'
+            'url' => 'http://localhost/api/monster/1',
         ];
 
         self::assertNotEmpty($response->getOriginalContent());
@@ -37,7 +39,7 @@ class MonsterIndexTest extends TestCase
             'name' => 'アプトノス',
             'size' => 'small',
             'species' => null,
-            'url' => 'http://localhost/api/monster/1'
+            'url' => 'http://localhost/api/monster/1',
         ];
 
         self::assertNotEmpty($response->getOriginalContent());

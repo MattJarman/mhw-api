@@ -1,10 +1,11 @@
 <?php
 
+declare(strict_types=1);
 
 namespace App\Repositories;
 
 use App\Sources\MonsterSource;
-use JetBrains\PhpStorm\ArrayShape;
+use stdClass;
 
 class MonsterRepository implements BaseRepository
 {
@@ -15,18 +16,22 @@ class MonsterRepository implements BaseRepository
         $this->src = $src;
     }
 
+    /**
+     * @param string $language Language to get results for
+     *
+     * @return stdClass[]
+     */
     public function index(string $language): array
     {
         return $this->src->index($language);
     }
 
-    #[ArrayShape([
-        'details' => "stdClass",
-        'habitats' => "array",
-        'rewards' => "array",
-        'breaks' => "array",
-        'hitZones' => "array"
-    ])]
+    /**
+     * @param int    $id       Id of monster
+     * @param string $language Language to get results for
+     *
+     * @return stdClass[]
+     */
     public function show(int $id, string $language): array
     {
         return [

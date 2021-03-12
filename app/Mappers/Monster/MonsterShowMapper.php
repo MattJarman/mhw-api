@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Mappers\Monster;
 
 class MonsterShowMapper
@@ -10,7 +12,6 @@ class MonsterShowMapper
     private array $monster;
 
     /**
-     * MonsterShowMapper constructor.
      * @param array<string, mixed> $monster
      */
     public function __construct(array $monster)
@@ -45,7 +46,7 @@ class MonsterShowMapper
             'locations' => $this->fieldMapper->getLocations(),
             'rewards' => $this->fieldMapper->getRewards(),
             'breaks' => $this->fieldMapper->getBreaks(),
-            'hit_zones' => $this->fieldMapper->getHitZones()
+            'hit_zones' => $this->fieldMapper->getHitZones(),
         ];
     }
 }

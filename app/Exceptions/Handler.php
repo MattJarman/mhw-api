@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
@@ -12,29 +14,24 @@ class Handler extends ExceptionHandler
      *
      * @var array<string>
      */
-    protected $dontReport = [
-        //
-    ];
+    protected array $dontReport = [];
 
     /**
      * A list of the inputs that are never flashed for validation exceptions.
      *
      * @var array<string>
      */
-    protected $dontFlash = [
+    protected array $dontFlash = [
         'password',
         'password_confirmation',
     ];
 
     /**
      * Register the exception handling callbacks for the application.
-     *
-     * @return void
      */
     public function register(): void
     {
-        $this->reportable(static function (Throwable $e) {
-            //
+        $this->reportable(static function (Throwable $e): void {
         });
     }
 }
