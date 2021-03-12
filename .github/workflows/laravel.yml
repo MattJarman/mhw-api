@@ -29,8 +29,8 @@ jobs:
       uses: "actions/cache@v2.0.0"
       with:
         path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-        key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-        restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
+        key: "php-${{ matrix.php-version }}-v2-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
+        restore-keys: "php-${{ matrix.php-version }}-v2-composer-${{ matrix.dependencies }}-"
 
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
