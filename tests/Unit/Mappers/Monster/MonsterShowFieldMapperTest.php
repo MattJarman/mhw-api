@@ -1,10 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests\Unit\Mappers\Monster;
 
 use App\Mappers\Monster\MonsterShowFieldMapper;
 use Illuminate\Support\Facades\Config;
 use Tests\TestCase;
+
+use function url;
 
 class MonsterShowFieldMapperTest extends TestCase
 {
@@ -12,7 +16,8 @@ class MonsterShowFieldMapperTest extends TestCase
         'id' => '31',
         'name' => 'Rathalos',
         'size' => 'large',
-        'description' => 'The apex monster of the Ancient Forest, also known as the \'King of the Skies.\' A terrible wyvern that descends upon invaders, attacking with poison claws and fiery breath.',
+        'description' => 'The apex monster of the Ancient Forest, also known as the \'King of the Skies.\'
+            A terrible wyvern that descends upon invaders, attacking with poison claws and fiery breath.',
         'ecology' => 'Flying Wyvern',
         'colour' => 'Red',
         'pitfall_trap' => '1',
@@ -52,7 +57,7 @@ class MonsterShowFieldMapperTest extends TestCase
         'name' => 'Ancient Forest',
         'start_area' => 1,
         'move_area' => '1,2,3,4,5',
-        'rest_area' => '5'
+        'rest_area' => '5',
     ];
 
     private const REWARD_ONE = [
@@ -119,7 +124,9 @@ class MonsterShowFieldMapperTest extends TestCase
         'ko' => '0',
     ];
 
+    /** @var array<string, mixed> */
     private array $monster;
+
     private MonsterShowFieldMapper $mapper;
 
     public function setUp(): void
@@ -163,7 +170,7 @@ class MonsterShowFieldMapperTest extends TestCase
     public function testGetIcon(): void
     {
         $id = self::DETAILS['id'];
-        $url = url("/images/monster/$id.png");
+        $url = url('/images/monster/' . $id . '.png');
         self::assertEquals($url, $this->mapper->getIcon());
     }
 
@@ -250,12 +257,12 @@ class MonsterShowFieldMapperTest extends TestCase
     public function testGetLocations(): void
     {
         $locations = [
-          [
-              'location' => self::HABITAT['name'],
-              'start_area' => self::HABITAT['start_area'],
-              'move_area' => self::HABITAT['move_area'],
-              'rest_area' => self::HABITAT['rest_area']
-          ]
+            [
+                'location' => self::HABITAT['name'],
+                'start_area' => self::HABITAT['start_area'],
+                'move_area' => self::HABITAT['move_area'],
+                'rest_area' => self::HABITAT['rest_area'],
+            ],
         ];
 
         self::assertEquals($locations, $this->mapper->getLocations());
@@ -272,8 +279,8 @@ class MonsterShowFieldMapperTest extends TestCase
                         'icon_url' => url('/images/items/scale/red.png'),
                         'stack' => 1,
                         'percentage' => 100,
-                    ]
-                ]
+                    ],
+                ],
             ],
             'mr' => [
                 'investigation_silver' => [
@@ -283,9 +290,9 @@ class MonsterShowFieldMapperTest extends TestCase
                         'icon_url' => url('/images/items/sac/red.png'),
                         'stack' => 2,
                         'percentage' => 30,
-                    ]
-                ]
-            ]
+                    ],
+                ],
+            ],
         ];
 
         self::assertEquals($rewards, $this->mapper->getRewards());
@@ -305,8 +312,8 @@ class MonsterShowFieldMapperTest extends TestCase
                         'icon_url' => null,
                         'stack' => 1,
                         'percentage' => 100,
-                    ]
-                ]
+                    ],
+                ],
             ],
             'mr' => [
                 'investigation_silver' => [
@@ -316,9 +323,9 @@ class MonsterShowFieldMapperTest extends TestCase
                         'icon_url' => url('/images/items/sac/red.png'),
                         'stack' => 2,
                         'percentage' => 30,
-                    ]
-                ]
-            ]
+                    ],
+                ],
+            ],
         ];
 
         self::assertEquals($rewards, $mapper->getRewards());

@@ -1,9 +1,16 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests\Feature\monster;
 
 use JsonException;
 use Tests\TestCase;
+
+use function file_get_contents;
+use function json_decode;
+
+use const JSON_THROW_ON_ERROR;
 
 class MonsterShowTest extends TestCase
 {
@@ -14,10 +21,8 @@ class MonsterShowTest extends TestCase
         $expected = [
             'message' => 'The given data was invalid.',
             'errors' => [
-                'monster' => [
-                    'The selected monster is invalid.'
-                ]
-            ]
+                'monster' => ['The selected monster is invalid.'],
+            ],
         ];
 
         self::assertEquals($expected, $response->getOriginalContent());

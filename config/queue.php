@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
 
     /*
@@ -30,9 +32,7 @@ return [
 
     'connections' => [
 
-        'sync' => [
-            'driver' => 'sync',
-        ],
+        'sync' => ['driver' => 'sync'],
 
         'database' => [
             'driver' => 'database',

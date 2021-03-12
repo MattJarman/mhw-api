@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="MHW API PHPCS ruleset">
+    <description>PHPCS - Code Sniffer</description>
+    <arg name="extensions" value="php"/>
+    <arg name="colors"/>
+    <arg value="sp"/>
+    <file>app</file>
+    <exclude-pattern>*/bootstrap/*</exclude-pattern>
+    <exclude-pattern>*/database/migrations/*</exclude-pattern>
+    <exclude-pattern>*/resources/views/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/public/*</exclude-pattern>
+    <exclude-pattern>*/storage/*</exclude-pattern>
+    <rule ref="Doctrine">
+        <exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly"/>
+        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+        <exclude name="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
+    </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint">
+        <exclude-pattern>app/Http/Middleware/*</exclude-pattern>
+        <exclude-pattern>app/Http/Kernel\.php</exclude-pattern>
+        <exclude-pattern>app/Providers/*</exclude-pattern>
+        <exclude-pattern>app/Exceptions/*</exclude-pattern>
+        <exclude-pattern>app/Console/Kernel\.php</exclude-pattern>
+    </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingAnyTypeHint">
+        <exclude-pattern>app/Http/Middleware/*</exclude-pattern>
+    </rule>
+
+</ruleset>

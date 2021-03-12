@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Controllers;
 
 use App\Http\Requests\MonsterShowRequest;
@@ -22,6 +24,7 @@ class MonsterController extends Controller
     {
         $index = $this->monsterRepository->index(App::getLocale());
         $response = (new MonsterIndexMapper($index))->get();
+
         return new JsonResponse($response);
     }
 
@@ -29,6 +32,7 @@ class MonsterController extends Controller
     {
         $monster = $this->monsterRepository->show((int) $request->route('monster'), App::getLocale());
         $response = (new MonsterShowMapper($monster))->get();
+
         return new JsonResponse($response);
     }
 }

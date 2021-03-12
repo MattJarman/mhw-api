@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'hex' => [
         'beige' => 'F99859',
@@ -35,5 +37,5 @@ return [
         10 => '6B9CFF',
         11 => 'E4BF79',
         12 => 'A2B4CA',
-    ]
+    ],
 ];

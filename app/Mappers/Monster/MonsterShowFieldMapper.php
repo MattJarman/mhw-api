@@ -1,10 +1,15 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Mappers\Monster;
 
 use App\Mappers\BaseMapper;
-use JetBrains\PhpStorm\ArrayShape;
 use stdClass;
+
+use function config;
+use function strtolower;
+use function url;
 
 class MonsterShowFieldMapper extends BaseMapper
 {
@@ -23,7 +28,6 @@ class MonsterShowFieldMapper extends BaseMapper
     private array $hitZones;
 
     /**
-     * MonsterShowFieldMapper constructor.
      * @param array<string, mixed> $monster
      */
     public function __construct(array $monster)
@@ -47,18 +51,18 @@ class MonsterShowFieldMapper extends BaseMapper
 
     public function getIcon(): string
     {
-        return url("/images/monster/{$this->details->id}.png");
+        return url('/images/monster/' . $this->details->id . '.png');
     }
 
     public function getColour(): ?string
     {
         $config = config('colours.hex');
-        if (!$this->details->colour) {
+        if (! $this->details->colour) {
             return null;
         }
 
         $colour = strtolower($this->details->colour);
-        if (!isset($config[$colour])) {
+        if (! isset($config[$colour])) {
             return null;
         }
 
@@ -78,7 +82,6 @@ class MonsterShowFieldMapper extends BaseMapper
     /**
      * @return bool[]
      */
-    #[ArrayShape(['pitfall' => 'bool', 'shock' => 'bool', 'vine' => 'bool'])]
     public function getTraps(): array
     {
         return [
@@ -168,6 +171,7 @@ class MonsterShowFieldMapper extends BaseMapper
 
     /**
      * @param stdClass[] $habitats
+     *
      * @return array<string, string>[]
      */
     private function mapLocations(array $habitats): array
@@ -178,7 +182,7 @@ class MonsterShowFieldMapper extends BaseMapper
                 'location' => $habitat->name,
                 'start_area' => $habitat->start_area,
                 'move_area' => $habitat->move_area,
-                'rest_area' => $habitat->rest_area
+                'rest_area' => $habitat->rest_area,
             ];
         }
 
@@ -187,6 +191,7 @@ class MonsterShowFieldMapper extends BaseMapper
 
     /**
      * @param stdClass[] $rewards
+     *
      * @return array<string, array<string, array<int, array<string, mixed>>>>
      */
     private function mapRewards(array $rewards): array
@@ -200,9 +205,11 @@ class MonsterShowFieldMapper extends BaseMapper
             $mappedRewards[$rankName][$conditionName][] = [
                 'material' => $reward->name,
                 'url' => '', // TODO: Add item url
-                'icon_url' => $reward->icon_name ? $this->getItemIconUrl($reward->icon_name, $reward->icon_color) : null,
+                'icon_url' => $reward->icon_name
+                    ? $this->getItemIconUrl($reward->icon_name, $reward->icon_color)
+                    : null,
                 'stack' => (int) $reward->stack,
-                'percentage' => (int) $reward->percentage
+                'percentage' => (int) $reward->percentage,
             ];
         }
 
@@ -211,6 +218,7 @@ class MonsterShowFieldMapper extends BaseMapper
 
     /**
      * @param stdClass[] $breaks
+     *
      * @return array<string, array<int, array<string, mixed>>>
      */
     private function mapBreaks(array $breaks): array
@@ -223,7 +231,7 @@ class MonsterShowFieldMapper extends BaseMapper
                 'flinch' => (int) $break->flinch,
                 'wound' => (int) $break->wound,
                 'sever' => (int) $break->sever,
-                'extract' => $break->extract
+                'extract' => $break->extract,
             ];
         }
 
@@ -232,6 +240,7 @@ class MonsterShowFieldMapper extends BaseMapper
 
     /**
      * @param stdClass[] $hitZones
+     *
      * @return array<string, array<string, int>>
      */
     private function mapHitZones(array $hitZones): array

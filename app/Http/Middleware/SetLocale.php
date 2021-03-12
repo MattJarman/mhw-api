@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Middleware;
 
 use Closure;
@@ -11,9 +13,10 @@ class SetLocale
     /**
      * Handle an incoming request.
      *
-     * @param Request $request
-     * @param Closure $next
-     * @return mixed
+     * @param Request $request Incoming request
+     * @param Closure $next    Closure
+     *
+     * @return mixed Closure
      */
     public function handle(Request $request, Closure $next): mixed
     {
