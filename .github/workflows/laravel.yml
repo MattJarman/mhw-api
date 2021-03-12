@@ -29,8 +29,8 @@ jobs:
       uses: "actions/cache@v2.0.0"
       with:
         path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-        key: "php-${{ matrix.php-version }}-composer-v2-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-        restore-keys: "php-${{ matrix.php-version }}-composer-v2-${{ matrix.dependencies }}-"
+        key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
+        restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
 
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
@@ -48,7 +48,7 @@ jobs:
       run: ./vendor/bin/phpstan analyse --memory-limit=1G
 
     - name: Check coding standard violations via PHPCS
-      run: ./vendor/bin/phpcs .
+      run: ./vendor/bin/phpcs -i
 
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       run: ./vendor/bin/phpunit
