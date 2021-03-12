@@ -48,7 +48,7 @@ jobs:
       run: ./vendor/bin/phpstan analyse --memory-limit=1G
 
     - name: Check coding standard violations via PHPCS
-      run: ./vendor/bin/phpstcs . --memory-limit=1G
+      run: ./vendor/bin/phpcs . --memory-limit=1G
 
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       run: ./vendor/bin/phpunit
