@@ -1,0 +1,1534 @@
+{
+    "name": "\u30ea\u30aa\u30ec\u30a6\u30b9",
+    "size": "large",
+    "species": "Flying Wyvern",
+    "icon": "http:\/\/localhost\/images\/monster\/31.png",
+    "colour": "#E04D54",
+    "description": "\u53e4\u4ee3\u6a39\u306e\u68ee\u3067\u751f\u614b\u7cfb\u306e\u9802\u70b9\u306b\u7acb\u3064\u226a\u7a7a\u306e\u738b\u8005\u226b\u3002 \u7e04\u5f35\u308a\u306b\u306f\u9c57\u3084\u722a\u75d5\u304c\u6b8b\u3055\u308c\u3066\u304a\u308a\u3001\u4fb5\u5165\u8005\u306b\u306f \u30e2\u30f3\u30b9\u30bf\u30fc\u3067\u3042\u308d\u3046\u3068\u5bb9\u8d66\u306a\u304f\u8972\u3044\u639b\u304b\u308b\u3002",
+    "traps": {
+        "pitfall": true,
+        "shock": true,
+        "vine": true
+    },
+    "ailments": {
+        "roar": true,
+        "wind": true,
+        "tremor": false,
+        "defense_down": false,
+        "fire_blight": true,
+        "water_blight": false,
+        "thunder_blight": false,
+        "ice_blight": false,
+        "dragon_blight": false,
+        "blast_blight": false,
+        "regional": false,
+        "poison": true,
+        "sleep": false,
+        "paralysis": false,
+        "bleed": false,
+        "stun": false,
+        "mud": false,
+        "effluvia": false
+    },
+    "weaknesses": {
+        "fire": 0,
+        "water": 1,
+        "ice": 1,
+        "thunder": 2,
+        "dragon": 3,
+        "poison": 1,
+        "sleep": 2,
+        "paralysis": 2,
+        "blast": 1,
+        "stun": 2
+    },
+    "locations": [
+        {
+            "location": "\u53e4\u4ee3\u6a39\u306e\u68ee",
+            "start_area": null,
+            "move_area": "1,3,4,5,7,8,9,12,14,15,16",
+            "rest_area": "16"
+        },
+        {
+            "location": "\u9f8d\u7d50\u6676\u306e\u5730",
+            "start_area": null,
+            "move_area": "3,4,9",
+            "rest_area": "4"
+        }
+    ],
+    "rewards": {
+        "lr": {
+            "": [
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 100
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 50
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 28
+                },
+                {
+                    "material": "\u7adc\u306e\u30ca\u30df\u30c0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
+                    "stack": 1,
+                    "percentage": 22
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5c3b\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 70
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 20
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9aa8\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 7
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 3
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 50
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 28
+                },
+                {
+                    "material": "\u7adc\u306e\u30ca\u30df\u30c0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
+                    "stack": 1,
+                    "percentage": 22
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 42
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 31
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u819c",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 25
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 2
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 24
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 19
+                },
+                {
+                    "material": "\u706b\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 1,
+                    "percentage": 17
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 2,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u4e0a\u7adc\u9aa8",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/bone\/beige.png",
+                    "stack": 2,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u819c",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 9
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5c3b\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 8
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 3
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u819c",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 16
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5c3b\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 16
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 2,
+                    "percentage": 15
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9aa8\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 13
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 2,
+                    "percentage": 12
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 2,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 2,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 8
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u819c",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 16
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5c3b\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 16
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 16
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 2,
+                    "percentage": 13
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9aa8\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 13
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 3,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 3,
+                    "percentage": 8
+                },
+                {
+                    "material": "\u706b\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 3,
+                    "percentage": 8
+                }
+            ],
+            "carve_capture": [
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 35
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 26
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u819c",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 20
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9aa8\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 14
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 5
+                }
+            ],
+            "wound_head": [
+                {
+                    "material": "\u706b\u7adc\u306e\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 66
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 30
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 4
+                }
+            ],
+            "wound_wings": [
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u819c",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 65
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 1,
+                    "percentage": 35
+                }
+            ],
+            "wound_back": [
+                {
+                    "material": "\u706b\u7adc\u306e\u7532\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 69
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9aa8\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 30
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 1
+                }
+            ],
+            "bandit_mantle": [
+                {
+                    "material": "\u5927\u304d\u306a\u30a6\u30ed\u30b3",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/lightbeige.png",
+                    "stack": 1,
+                    "percentage": 70
+                },
+                {
+                    "material": "\u304d\u308c\u3044\u306a\u30a6\u30ed\u30b3",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/white.png",
+                    "stack": 1,
+                    "percentage": 30
+                }
+            ]
+        },
+        "hr": {
+            "": [
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 100
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 50
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 28
+                },
+                {
+                    "material": "\u7adc\u306e\u30ca\u30df\u30c0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
+                    "stack": 1,
+                    "percentage": 22
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5c3b\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 66
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 20
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5ef6\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 7
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 5
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 2
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 50
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 28
+                },
+                {
+                    "material": "\u7adc\u306e\u30ca\u30df\u30c0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
+                    "stack": 1,
+                    "percentage": 22
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 42
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 31
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 26
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 1
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 27
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 21
+                },
+                {
+                    "material": "\u7206\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 1,
+                    "percentage": 18
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 12
+                },
+                {
+                    "material": "\u5805\u7adc\u9aa8",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/bone\/red.png",
+                    "stack": 2,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5c3b\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 9
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 3
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 24
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5ef6\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 20
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 2,
+                    "percentage": 14
+                },
+                {
+                    "material": "\u7206\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 2,
+                    "percentage": 14
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 2,
+                    "percentage": 12
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 6
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 23
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5ef6\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 20
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 13
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 3,
+                    "percentage": 12
+                },
+                {
+                    "material": "\u7206\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 3,
+                    "percentage": 12
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 3,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 10
+                }
+            ],
+            "carve_capture": [
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 34
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 24
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 20
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5ef6\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 14
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 7
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 1
+                }
+            ],
+            "wound_head": [
+                {
+                    "material": "\u706b\u7adc\u306e\u4e0a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 65
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 30
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u9006\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
+                    "stack": 1,
+                    "percentage": 4
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 1
+                }
+            ],
+            "wound_wings": [
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 65
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 2,
+                    "percentage": 35
+                }
+            ],
+            "wound_back": [
+                {
+                    "material": "\u706b\u7adc\u306e\u5805\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 69
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5ef6\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 30
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 1
+                }
+            ],
+            "bandit_mantle": [
+                {
+                    "material": "\u304d\u308c\u3044\u306a\u30a6\u30ed\u30b3",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/white.png",
+                    "stack": 1,
+                    "percentage": 70
+                },
+                {
+                    "material": "\u3064\u3084\u3081\u304f\u30a6\u30ed\u30b3",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/cyan.png",
+                    "stack": 1,
+                    "percentage": 30
+                }
+            ],
+            "investigation_purple": [
+                {
+                    "material": "\u53e4\u3073\u305f\u73e0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/feystone\/beige.png",
+                    "stack": 1,
+                    "percentage": 35
+                },
+                {
+                    "material": "\u5149\u308b\u73e0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/feystone\/blue.png",
+                    "stack": 1,
+                    "percentage": 34
+                },
+                {
+                    "material": "\u98a8\u5316\u3057\u305f\u73e0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/feystone\/red.png",
+                    "stack": 1,
+                    "percentage": 26
+                },
+                {
+                    "material": "\u6c5a\u308c\u305f\u9f8d\u8108\u77f3",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/streamstone\/gray.png",
+                    "stack": 1,
+                    "percentage": 3
+                },
+                {
+                    "material": "\u8f1d\u304f\u9f8d\u8108\u77f3",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/streamstone\/gold.png",
+                    "stack": 1,
+                    "percentage": 2
+                }
+            ]
+        },
+        "mr": {
+            "": [
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 100
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 50
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 28
+                },
+                {
+                    "material": "\u7adc\u306e\u5927\u7c92\u30ca\u30df\u30c0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
+                    "stack": 1,
+                    "percentage": 22
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u976d\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 66
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 20
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5ef6\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 7
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 5
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5929\u9c57",
+                    "url": "",
+                    "icon_url": null,
+                    "stack": 1,
+                    "percentage": 2
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 50
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 28
+                },
+                {
+                    "material": "\u7adc\u306e\u5927\u7c92\u30ca\u30df\u30c0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
+                    "stack": 1,
+                    "percentage": 22
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 42
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 31
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 26
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5929\u9c57",
+                    "url": "",
+                    "icon_url": null,
+                    "stack": 1,
+                    "percentage": 1
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 27
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 21
+                },
+                {
+                    "material": "\u696d\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 1,
+                    "percentage": 18
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 12
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 2,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u976d\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 9
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 3
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 2,
+                    "percentage": 17
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 2,
+                    "percentage": 15
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 15
+                },
+                {
+                    "material": "\u696d\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 2,
+                    "percentage": 14
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u976d\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 13
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 2,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5929\u9c57",
+                    "url": "",
+                    "icon_url": null,
+                    "stack": 1,
+                    "percentage": 6
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 17
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u976d\u5c3e",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
+                    "stack": 1,
+                    "percentage": 16
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5929\u9c57",
+                    "url": "",
+                    "icon_url": null,
+                    "stack": 1,
+                    "percentage": 13
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 3,
+                    "percentage": 12
+                },
+                {
+                    "material": "\u696d\u708e\u888b",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
+                    "stack": 3,
+                    "percentage": 12
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 3,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 2,
+                    "percentage": 10
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 10
+                }
+            ],
+            "carve_capture": [
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 34
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 24
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 20
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5ef6\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 1,
+                    "percentage": 14
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 7
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5929\u9c57",
+                    "url": "",
+                    "icon_url": null,
+                    "stack": 1,
+                    "percentage": 1
+                }
+            ],
+            "wound_head": [
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 67
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u539a\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 27
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u7d05\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
+                    "stack": 1,
+                    "percentage": 5
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5929\u9c57",
+                    "url": "",
+                    "icon_url": null,
+                    "stack": 1,
+                    "percentage": 1
+                }
+            ],
+            "wound_wings": [
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
+                    "stack": 1,
+                    "percentage": 65
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u525b\u7ffc\u722a",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
+                    "stack": 1,
+                    "percentage": 35
+                }
+            ],
+            "wound_back": [
+                {
+                    "material": "\u706b\u7adc\u306e\u91cd\u6bbb",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
+                    "stack": 1,
+                    "percentage": 69
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5ef6\u9ac4",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
+                    "stack": 2,
+                    "percentage": 30
+                },
+                {
+                    "material": "\u706b\u7adc\u306e\u5929\u9c57",
+                    "url": "",
+                    "icon_url": null,
+                    "stack": 1,
+                    "percentage": 1
+                }
+            ],
+            "bandit_mantle": [
+                {
+                    "material": "\u3064\u3084\u3081\u304f\u30a6\u30ed\u30b3",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/cyan.png",
+                    "stack": 1,
+                    "percentage": 70
+                },
+                {
+                    "material": "\u304b\u304c\u3084\u304f\u30a6\u30ed\u30b3",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/gold.png",
+                    "stack": 1,
+                    "percentage": 30
+                }
+            ],
+            "investigation_purple": [
+                {
+                    "material": "\u523b\u307e\u308c\u305f\u73e0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/feystone\/green.png",
+                    "stack": 1,
+                    "percentage": 60
+                },
+                {
+                    "material": "\u592a\u53e4\u306e\u73e0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/feystone\/violet.png",
+                    "stack": 1,
+                    "percentage": 30
+                },
+                {
+                    "material": "\u5c01\u3058\u3089\u308c\u305f\u73e0",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/feystone\/gold.png",
+                    "stack": 1,
+                    "percentage": 10
+                }
+            ],
+            "guiding_lands_low": [
+                {
+                    "material": "\u9f8d\u8108\u306e\u91cd\u7adc\u9aa8",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/bone\/gray.png",
+                    "stack": 1,
+                    "percentage": 63
+                },
+                {
+                    "material": "\u738b\u8005\u306e\u7adc\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 37
+                }
+            ],
+            "guiding_lands_mid": [
+                {
+                    "material": "\u738b\u8005\u306e\u7adc\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 63
+                },
+                {
+                    "material": "\u9f8d\u8108\u306e\u91cd\u7adc\u9aa8",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/bone\/gray.png",
+                    "stack": 1,
+                    "percentage": 37
+                }
+            ],
+            "guiding_lands_high": [
+                {
+                    "material": "\u738b\u8005\u306e\u7adc\u9c57",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 100
+                }
+            ],
+            "guiding_lands_tempered": [
+                {
+                    "material": "\u6b74\u6226\u306e\u7adc\u9c57\u3010\u8d64\u3011",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
+                    "stack": 1,
+                    "percentage": 61
+                },
+                {
+                    "material": "\u970a\u8108\u306e\u525b\u7adc\u9aa8",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/bone\/beige.png",
+                    "stack": 1,
+                    "percentage": 30
+                },
+                {
+                    "material": "\u970a\u8108\u7389",
+                    "url": "",
+                    "icon_url": "http:\/\/localhost\/images\/items\/streamstone\/white.png",
+                    "stack": 1,
+                    "percentage": 9
+                }
+            ]
+        }
+    },
+    "breaks": {
+        "head": [
+            {
+                "flinch": 240,
+                "wound": 480,
+                "sever": 0,
+                "extract": "red"
+            }
+        ],
+        "body": [
+            {
+                "flinch": 300,
+                "wound": 300,
+                "sever": 0,
+                "extract": "orange"
+            }
+        ],
+        "left_wing": [
+            {
+                "flinch": 220,
+                "wound": 220,
+                "sever": 0,
+                "extract": "white"
+            }
+        ],
+        "right_wing": [
+            {
+                "flinch": 220,
+                "wound": 220,
+                "sever": 0,
+                "extract": "white"
+            }
+        ],
+        "left_leg": [
+            {
+                "flinch": 190,
+                "wound": 0,
+                "sever": 0,
+                "extract": "orange"
+            }
+        ],
+        "right_leg": [
+            {
+                "flinch": 190,
+                "wound": 0,
+                "sever": 0,
+                "extract": "orange"
+            }
+        ],
+        "tail": [
+            {
+                "flinch": 200,
+                "wound": 0,
+                "sever": 200,
+                "extract": "green"
+            }
+        ]
+    },
+    "hit_zones": {
+        "head": {
+            "cut": 65,
+            "impact": 70,
+            "shot": 60,
+            "fire": 0,
+            "water": 15,
+            "ice": 15,
+            "thunder": 20,
+            "dragon": 30,
+            "ko": 100
+        },
+        "neck": {
+            "cut": 35,
+            "impact": 40,
+            "shot": 30,
+            "fire": 0,
+            "water": 5,
+            "ice": 5,
+            "thunder": 10,
+            "dragon": 20,
+            "ko": 0
+        },
+        "body": {
+            "cut": 25,
+            "impact": 25,
+            "shot": 20,
+            "fire": 0,
+            "water": 5,
+            "ice": 5,
+            "thunder": 10,
+            "dragon": 20,
+            "ko": 0
+        },
+        "back": {
+            "cut": 25,
+            "impact": 25,
+            "shot": 20,
+            "fire": 0,
+            "water": 5,
+            "ice": 5,
+            "thunder": 10,
+            "dragon": 20,
+            "ko": 0
+        },
+        "left_wing": {
+            "cut": 50,
+            "impact": 45,
+            "shot": 40,
+            "fire": 0,
+            "water": 10,
+            "ice": 10,
+            "thunder": 15,
+            "dragon": 25,
+            "ko": 0
+        },
+        "right_wing": {
+            "cut": 50,
+            "impact": 45,
+            "shot": 40,
+            "fire": 0,
+            "water": 10,
+            "ice": 10,
+            "thunder": 15,
+            "dragon": 25,
+            "ko": 0
+        },
+        "left_leg": {
+            "cut": 35,
+            "impact": 35,
+            "shot": 30,
+            "fire": 0,
+            "water": 0,
+            "ice": 0,
+            "thunder": 5,
+            "dragon": 15,
+            "ko": 0
+        },
+        "right_leg": {
+            "cut": 35,
+            "impact": 35,
+            "shot": 30,
+            "fire": 0,
+            "water": 0,
+            "ice": 0,
+            "thunder": 5,
+            "dragon": 15,
+            "ko": 0
+        },
+        "tail": {
+            "cut": 45,
+            "impact": 40,
+            "shot": 35,
+            "fire": 0,
+            "water": 5,
+            "ice": 5,
+            "thunder": 10,
+            "dragon": 20,
+            "ko": 0
+        }
+    }
+}

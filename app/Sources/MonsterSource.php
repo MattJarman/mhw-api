@@ -18,13 +18,14 @@ class MonsterSource
     }
 
     /**
+     * @param string $language Language to query for
+     *
      * @return stdClass[]
      */
     public function index(string $language): array
     {
         return $this->db->select(
-            '
-            SELECT m.id,
+            'SELECT m.id,
                     mt.name,
                     m.size,
                     mt.ecology
@@ -39,8 +40,7 @@ class MonsterSource
     public function getDetails(int $id, string $language): stdClass
     {
         return $this->db->selectOne(
-            '
-            SELECT m.id,
+            'SELECT m.id,
                    mt.name,
                    m.size,
                    mt.description,
@@ -93,13 +93,15 @@ class MonsterSource
     }
 
     /**
+     * @param int    $id
+     * @param string $language
+     *
      * @return stdClass[]
      */
     public function getHabitats(int $id, string $language): array
     {
         return $this->db->select(
-            '
-            SELECT lt.name,
+            'SELECT lt.name,
                    mh.start_area,
                    mh.move_area,
                    mh.rest_area
@@ -118,13 +120,15 @@ class MonsterSource
     }
 
     /**
+     * @param int    $id
+     * @param string $language
+     *
      * @return stdClass[]
      */
     public function getRewards(int $id, string $language): array
     {
         return $this->db->select(
-            '
-            SELECT i.id,
+            'SELECT i.id,
                    it.name,
                    mr.rank,
                    mr.percentage,
@@ -150,13 +154,15 @@ class MonsterSource
     }
 
     /**
+     * @param int    $id
+     * @param string $language
+     *
      * @return stdClass[]
      */
     public function getBreaks(int $id, string $language): array
     {
         return $this->db->select(
-            '
-            SELECT mbt.part_name AS name,
+            'SELECT mbt.part_name AS name,
                    mb.flinch,
                    mb.wound,
                    mb.sever,
@@ -176,13 +182,15 @@ class MonsterSource
     }
 
     /**
+     * @param int    $id
+     * @param string $language
+     *
      * @return stdClass[]
      */
     public function getHitZones(int $id, string $language): array
     {
         return $this->db->select(
-            '
-            SELECT mht.name,
+            'SELECT mht.name,
                    mh.cut,
                    mh.impact,
                    mh.shot,

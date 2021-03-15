@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use App\Http\Controllers\ItemController;
 use App\Http\Controllers\MonsterController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('monster', MonsterController::class)->only(['index', 'show'])->middleware('setLocale');
+Route::resource('item', ItemController::class)->only(['index', 'show'])->middleware('setLocale');
