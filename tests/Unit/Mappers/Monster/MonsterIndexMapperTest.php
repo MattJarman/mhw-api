@@ -31,6 +31,6 @@ class MonsterIndexMapperTest extends TestCase
 
         $actual = (new MonsterIndexMapper($monsters))->get();
 
-        self::assertEquals($expected, $actual);
+        self::assertSame($expected, $actual);
     }
 }

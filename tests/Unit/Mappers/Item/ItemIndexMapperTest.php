@@ -29,6 +29,6 @@ class ItemIndexMapperTest extends TestCase
 
         $actual = (new ItemIndexMapper($items))->get();
 
-        self::assertEquals($expected, $actual);
+        self::assertSame($expected, $actual);
     }
 }
