@@ -22,6 +22,6 @@ case "$1" in
     docker-compose run --rm mhw-php php artisan tinker
     ;;
 *)
-    docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php "$*"
+    docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php "$@"
     ;;
 esac

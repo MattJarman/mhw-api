@@ -146,17 +146,17 @@ class MonsterShowFieldMapperTest extends TestCase
 
     public function testGetName(): void
     {
-        self::assertEquals(self::DETAILS['name'], $this->mapper->getName());
+        self::assertSame(self::DETAILS['name'], $this->mapper->getName());
     }
 
     public function testGetSize(): void
     {
-        self::assertEquals(self::DETAILS['size'], $this->mapper->getSize());
+        self::assertSame(self::DETAILS['size'], $this->mapper->getSize());
     }
 
     public function testGetSpecies(): void
     {
-        self::assertEquals(self::DETAILS['ecology'], $this->mapper->getSpecies());
+        self::assertSame(self::DETAILS['ecology'], $this->mapper->getSpecies());
     }
 
     public function testGetSpeciesReturnsNullIfEcologyNotSet(): void
@@ -171,13 +171,13 @@ class MonsterShowFieldMapperTest extends TestCase
     {
         $id = self::DETAILS['id'];
         $url = url('/images/monster/' . $id . '.png');
-        self::assertEquals($url, $this->mapper->getIcon());
+        self::assertSame($url, $this->mapper->getIcon());
     }
 
     public function testGetColour(): void
     {
         Config::set('colours.hex.red', '000000');
-        self::assertEquals('#000000', $this->mapper->getColour());
+        self::assertSame('#000000', $this->mapper->getColour());
     }
 
     public function testGetColourReturnsNullIfColourIsNull(): void
@@ -196,7 +196,7 @@ class MonsterShowFieldMapperTest extends TestCase
 
     public function testGetDescription(): void
     {
-        self::assertEquals(self::DETAILS['description'], $this->mapper->getDescription());
+        self::assertSame(self::DETAILS['description'], $this->mapper->getDescription());
     }
 
     public function testGetTraps(): void
@@ -207,7 +207,7 @@ class MonsterShowFieldMapperTest extends TestCase
             'vine' => true,
         ];
 
-        self::assertEquals($traps, $this->mapper->getTraps());
+        self::assertSame($traps, $this->mapper->getTraps());
     }
 
     public function testGetAilments(): void
@@ -233,7 +233,7 @@ class MonsterShowFieldMapperTest extends TestCase
             'effluvia' => false,
         ];
 
-        self::assertEquals($ailments, $this->mapper->getAilments());
+        self::assertSame($ailments, $this->mapper->getAilments());
     }
 
     public function testGetWeaknesses(): void
@@ -251,7 +251,7 @@ class MonsterShowFieldMapperTest extends TestCase
             'stun' => 2,
         ];
 
-        self::assertEquals($weaknesses, $this->mapper->getWeaknesses());
+        self::assertSame($weaknesses, $this->mapper->getWeaknesses());
     }
 
     public function testGetLocations(): void
@@ -265,7 +265,7 @@ class MonsterShowFieldMapperTest extends TestCase
             ],
         ];
 
-        self::assertEquals($locations, $this->mapper->getLocations());
+        self::assertSame($locations, $this->mapper->getLocations());
     }
 
     public function testGetRewards(): void
@@ -295,7 +295,7 @@ class MonsterShowFieldMapperTest extends TestCase
             ],
         ];
 
-        self::assertEquals($rewards, $this->mapper->getRewards());
+        self::assertSame($rewards, $this->mapper->getRewards());
     }
 
     public function testGetRewardsIconUrlNullIfFileDoesNotExist(): void
@@ -328,7 +328,7 @@ class MonsterShowFieldMapperTest extends TestCase
             ],
         ];
 
-        self::assertEquals($rewards, $mapper->getRewards());
+        self::assertSame($rewards, $mapper->getRewards());
     }
 
     public function testGetBreaks(): void
@@ -352,7 +352,7 @@ class MonsterShowFieldMapperTest extends TestCase
             ],
         ];
 
-        self::assertEquals($breaks, $this->mapper->getBreaks());
+        self::assertSame($breaks, $this->mapper->getBreaks());
     }
 
     public function testGetHitZones(): void
@@ -382,6 +382,6 @@ class MonsterShowFieldMapperTest extends TestCase
             ],
         ];
 
-        self::assertEquals($hitZones, $this->mapper->getHitZones());
+        self::assertSame($hitZones, $this->mapper->getHitZones());
     }
 }

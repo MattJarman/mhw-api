@@ -25,7 +25,7 @@ class MonsterShowTest extends TestCase
             ],
         ];
 
-        self::assertEquals($expected, $response->getOriginalContent());
+        self::assertSame($expected, $response->getOriginalContent());
     }
 
     /**
@@ -37,15 +37,18 @@ class MonsterShowTest extends TestCase
         $response = $this->get('/api/monster/31', ['Accept' => 'application/json']);
 
         $response->assertOk();
-        self::assertEquals($expected, $response->getOriginalContent());
+        self::assertSame($expected, $response->getOriginalContent());
     }
 
+    /**
+     * @throws JsonException
+     */
     public function testMonsterShowWithLanguage(): void
     {
         $expected = json_decode(file_get_contents(__DIR__ . '/responses/31-ja.json'), true, 512, JSON_THROW_ON_ERROR);
         $response = $this->get('/api/monster/31?language=ja', ['Accept' => 'application/json']);
 
         $response->assertOk();
-        self::assertEquals($expected, $response->getOriginalContent());
+        self::assertSame($expected, $response->getOriginalContent());
     }
 }

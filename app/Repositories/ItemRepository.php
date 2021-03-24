@@ -34,6 +34,9 @@ class ItemRepository implements BaseRepository
      */
     public function show(int $id, string $language): array
     {
-        return [];
+        return [
+            'details' => $this->src->getDetails($id, $language),
+            'recipes' => $this->src->getRecipes($id, $language),
+        ];
     }
 }

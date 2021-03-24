@@ -24,7 +24,7 @@ class SetLocaleTest extends TestCase
         $middleware = new SetLocale();
 
         $middleware->handle($request, function ($req) use ($locale): void {
-            $this->assertEquals($locale, app()->getLocale());
+            $this->assertSame($locale, app()->getLocale());
         });
     }
 

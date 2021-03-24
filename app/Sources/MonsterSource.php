@@ -25,14 +25,15 @@ class MonsterSource
     public function index(string $language): array
     {
         return $this->db->select(
-            'SELECT m.id,
-                    mt.name,
-                    m.size,
-                    mt.ecology
+            '
+            SELECT m.id,
+                   mt.name,
+                   m.size,
+                   mt.ecology
             FROM monster m
-                JOIN monster_text mt on mt.id = m.id
+                     JOIN monster_text mt on mt.id = m.id
             WHERE mt.lang_id = :language
-        ',
+            ',
             ['language' => $language]
         );
     }
@@ -40,7 +41,8 @@ class MonsterSource
     public function getDetails(int $id, string $language): stdClass
     {
         return $this->db->selectOne(
-            'SELECT m.id,
+            '
+            SELECT m.id,
                    mt.name,
                    m.size,
                    mt.description,
@@ -82,9 +84,9 @@ class MonsterSource
                      JOIN monster_reward mr ON mr.monster_id = m.id
                      LEFT JOIN item i ON i.id = mr.item_id
             WHERE mt.lang_id = :language
-            AND mt.id = :id
+              AND mt.id = :id
             GROUP BY mt.id
-        ',
+            ',
             [
                 'id' => $id,
                 'language' => $language,
@@ -101,7 +103,8 @@ class MonsterSource
     public function getHabitats(int $id, string $language): array
     {
         return $this->db->select(
-            'SELECT lt.name,
+            '
+            SELECT lt.name,
                    mh.start_area,
                    mh.move_area,
                    mh.rest_area
@@ -111,7 +114,7 @@ class MonsterSource
             WHERE mt.lang_id = :language
                     AND lt.lang_id = :language
                     AND mt.id = :id
-        ',
+            ',
             [
                 'id' => $id,
                 'language' => $language,
@@ -128,7 +131,8 @@ class MonsterSource
     public function getRewards(int $id, string $language): array
     {
         return $this->db->select(
-            'SELECT i.id,
+            '
+            SELECT i.id,
                    it.name,
                    mr.rank,
                    mr.percentage,
@@ -144,8 +148,8 @@ class MonsterSource
             WHERE mt.lang_id = :language
               AND mrct.lang_id = :language
               AND it.lang_id = :language
-              AND mt.id = :id;
-        ',
+              AND mt.id = :id
+            ',
             [
                 'id' => $id,
                 'language' => $language,
@@ -162,7 +166,8 @@ class MonsterSource
     public function getBreaks(int $id, string $language): array
     {
         return $this->db->select(
-            'SELECT mbt.part_name AS name,
+            '
+            SELECT mbt.part_name AS name,
                    mb.flinch,
                    mb.wound,
                    mb.sever,
@@ -173,7 +178,7 @@ class MonsterSource
             WHERE mt.lang_id = :language
               AND mbt.lang_id = :language
               AND mt.id = :id
-        ',
+            ',
             [
                 'id' => $id,
                 'language' => $language,
@@ -190,7 +195,8 @@ class MonsterSource
     public function getHitZones(int $id, string $language): array
     {
         return $this->db->select(
-            'SELECT mht.name,
+            '
+            SELECT mht.name,
                    mh.cut,
                    mh.impact,
                    mh.shot,
@@ -206,7 +212,7 @@ class MonsterSource
             WHERE mt.lang_id = :language
               AND mht.lang_id = :language
               AND mt.id = :id
-        ',
+            ',
             [
                 'id' => $id,
                 'language' => $language,
