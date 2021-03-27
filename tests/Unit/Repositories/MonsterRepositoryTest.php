@@ -25,7 +25,7 @@ class MonsterRepositoryTest extends TestCase
     public function testIndex(): void
     {
         $expected = [
-            [
+            (object) [
                 'id' => '31',
                 'name' => 'Rathalos',
                 'size' => 'large',

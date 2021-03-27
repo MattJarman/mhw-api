@@ -25,7 +25,7 @@ class ItemRepositoryTest extends TestCase
     public function testIndex(): void
     {
         $expected = [
-            [
+            (object) [
                 'id' => '1',
                 'name' => 'Potion',
                 'category' => 'item',
