@@ -13,7 +13,7 @@ class WeaponIndexMapperTest extends TestCase
         'id' => '1',
         'name' => 'Buster Sword I',
         'type' => 'great-sword',
-        'rarity' => '1'
+        'rarity' => '1',
     ];
 
     public function testMapperReturnsCorrectResult(): void
@@ -25,8 +25,8 @@ class WeaponIndexMapperTest extends TestCase
                 'name' => self::WEAPON['name'],
                 'type' => self::WEAPON['type'],
                 'rarity' => (int) self::WEAPON['rarity'],
-                'url' => 'http://localhost/api/weapon/' . self::WEAPON['id']
-            ]
+                'url' => 'http://localhost/api/weapon/' . self::WEAPON['id'],
+            ],
         ];
 
         $actual = (new WeaponIndexMapper($weapons))->get();
