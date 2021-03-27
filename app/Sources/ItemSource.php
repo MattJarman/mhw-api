@@ -4,19 +4,10 @@ declare(strict_types=1);
 
 namespace App\Sources;
 
-use Illuminate\Database\Connection as DB;
-use Illuminate\Database\DatabaseManager;
 use stdClass;
 
-class ItemSource
+class ItemSource extends BaseSource
 {
-    private DB $db;
-
-    public function __construct(DatabaseManager $db)
-    {
-        $this->db = $db->connection();
-    }
-
     /**
      * @param string $language
      *

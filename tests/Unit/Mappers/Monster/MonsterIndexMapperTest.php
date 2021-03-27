@@ -10,7 +10,7 @@ use Tests\TestCase;
 class MonsterIndexMapperTest extends TestCase
 {
     private const MONSTER = [
-        'id' => 1,
+        'id' => '1',
         'name' => 'Aptonoth',
         'size' => 'small',
         'ecology' => null,
@@ -21,7 +21,7 @@ class MonsterIndexMapperTest extends TestCase
         $monsters = [(object) self::MONSTER];
         $expected = [
             [
-                'id' => self::MONSTER['id'],
+                'id' => (int) self::MONSTER['id'],
                 'name' => self::MONSTER['name'],
                 'size' => self::MONSTER['size'],
                 'species' => self::MONSTER['ecology'],
