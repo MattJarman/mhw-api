@@ -1,0 +1,55 @@
+{
+    "name": "Iron Bow I",
+    "type": "bow",
+    "rarity": 1,
+    "icon": "http:\/\/localhost\/images\/equipment\/bow\/1.png",
+    "category": null,
+    "attack": 96,
+    "true_attack": 80,
+    "affinity": 0,
+    "defense": 0,
+    "elderseal": null,
+    "slots": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0
+    },
+    "elements": [],
+    "sharpness": false,
+    "skills": [],
+    "crafting": {
+        "is_craftable": true,
+        "is_final": false,
+        "crafting_cost": [
+            {
+                "id": 115,
+                "name": "Iron Ore",
+                "quantity": 1,
+                "url": "http:\/\/localhost\/api\/item\/115",
+                "icon_url": "http:\/\/localhost\/images\/items\/ore\/gray.png"
+            }
+        ],
+        "upgrade_cost": [],
+        "previous_weapon": false,
+        "upgrades": [
+            {
+                "id": 1076,
+                "name": "Iron Bow II",
+                "url": "http:\/\/localhost\/api\/weapon\/1076"
+            }
+        ]
+    },
+    "kinsect_bonus": false,
+    "phial": false,
+    "shelling": false,
+    "coatings": {
+        "close": true,
+        "power": true,
+        "paralysis": false,
+        "poison": false,
+        "sleep": false,
+        "blast": false
+    },
+    "ammo": false,
+    "melodies": false
+}

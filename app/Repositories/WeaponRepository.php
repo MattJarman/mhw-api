@@ -34,6 +34,16 @@ class WeaponRepository implements BaseRepository
      */
     public function show(int $id, string $language): array
     {
-        return [];
+        $details = $this->src->getDetails($id, $language);
+
+        return [
+            'details' => $details,
+            'skills' => $this->src->getSkills($id, $language),
+            'craftingMaterials' => $this->src->getCraftingMaterials($id, $language),
+            'upgradeMaterials' => $this->src->getUpgradeMaterials($id, $language),
+            'upgrades' => $this->src->getUpgrades($id, $language),
+            'ammo' => $this->src->getAmmo($id),
+            'melodies' => $details->notes ? $this->src->getMelodies($details->notes, $language) : false,
+        ];
     }
 }
