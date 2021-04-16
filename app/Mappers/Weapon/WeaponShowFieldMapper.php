@@ -185,6 +185,9 @@ class WeaponShowFieldMapper extends BaseMapper
         ];
     }
 
+    /**
+     * @return array<string, bool>|false
+     */
     public function getCoatings(): array | false
     {
         if (! $this->details->coating_close) {
@@ -209,6 +212,9 @@ class WeaponShowFieldMapper extends BaseMapper
         return $this->ammo;
     }
 
+    /**
+     * @return array<string, mixed>[]|false
+     */
     public function getMelodies(): array | false
     {
         return $this->melodies;
@@ -261,7 +267,7 @@ class WeaponShowFieldMapper extends BaseMapper
     }
 
     /**
-     * @param array<string, mixed>[] $skills
+     * @param stdClass[] $skills
      *
      * @return array<string, mixed>[]
      */
@@ -281,7 +287,7 @@ class WeaponShowFieldMapper extends BaseMapper
     }
 
     /**
-     * @param array<string, mixed>[] $materials
+     * @param stdClass[] $materials
      *
      * @return array<string, mixed>[]
      */
@@ -317,7 +323,7 @@ class WeaponShowFieldMapper extends BaseMapper
     }
 
     /**
-     * @param array<string, mixed>[] $upgrades
+     * @param stdClass[] $upgrades
      *
      * @return array<string, mixed>[]
      */
@@ -332,10 +338,10 @@ class WeaponShowFieldMapper extends BaseMapper
     }
 
     /**
-     * @param stdClass               $details
-     * @param array<string, mixed>[] $craftingMaterials
-     * @param array<string, mixed>[] $upgradeMaterials
-     * @param array<string, mixed>[] $upgrades
+     * @param stdClass   $details
+     * @param stdClass[] $craftingMaterials
+     * @param stdClass[] $upgradeMaterials
+     * @param stdClass[] $upgrades
      *
      * @return array<string, mixed>
      */
@@ -358,7 +364,7 @@ class WeaponShowFieldMapper extends BaseMapper
     }
 
     /**
-     * @param array<string, mixed>[] $melodies
+     * @param stdClass[] $melodies
      *
      * @return array<string, mixed>[]
      */
