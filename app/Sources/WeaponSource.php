@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Sources;
 
-use Illuminate\Support\Arr;
+use App\Mappers\Weapon\MelodyPermutationGenerator;
 use stdClass;
 
 class WeaponSource extends BaseSource
@@ -218,9 +218,7 @@ class WeaponSource extends BaseSource
      */
     public function getMelodies(string $noteString, string $language): array
     {
-        $notes = str_split($noteString . self::ECHO_NOTE);
-
-        $permutations = $this->getMelodyPermutations($notes);
+        $permutations = MelodyPermutationGenerator::generate($noteString . self::ECHO_NOTE);
 
         return $this->db
             ->table('weapon_melody_notes AS wmn')
@@ -244,24 +242,5 @@ class WeaponSource extends BaseSource
             ->whereIn('wmn.notes', $permutations)
             ->get()
             ->toArray();
-    }
-
-    /**
-     * @param string[] $notes
-     *
-     * @return array<string, mixed>
-     */
-    private function getMelodyPermutations(array $notes): array
-    {
-        return array_map(
-            static function ($array) {
-                return implode($array);
-            },
-            array_merge(
-                Arr::crossJoin($notes, $notes),
-                Arr::crossJoin($notes, $notes, $notes),
-                Arr::crossJoin($notes, $notes, $notes, $notes),
-            )
-        );
     }
 }

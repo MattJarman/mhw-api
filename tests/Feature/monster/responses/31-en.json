@@ -61,7 +61,7 @@
             "track": [
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 100
@@ -70,35 +70,35 @@
             "carve_capture": [
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 35
                 },
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 26
                 },
                 {
                     "material": "Rathalos Webbing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/341",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 20
                 },
                 {
                     "material": "Rathalos Marrow",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/344",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 14
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 5
@@ -107,21 +107,21 @@
             "wound_head": [
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 66
                 },
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 30
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 4
@@ -130,14 +130,14 @@
             "wound_wings": [
                 {
                     "material": "Rathalos Webbing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/341",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 65
                 },
                 {
                     "material": "Rath Wingtalon",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/343",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 1,
                     "percentage": 35
@@ -146,21 +146,21 @@
             "wound_back": [
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 69
                 },
                 {
                     "material": "Rathalos Marrow",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/344",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 30
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 1
@@ -169,21 +169,21 @@
             "shiny_drop": [
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 50
                 },
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 28
                 },
                 {
                     "material": "Wyvern Tear",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/606",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
                     "stack": 1,
                     "percentage": 22
@@ -192,28 +192,28 @@
             "tail_carve": [
                 {
                     "material": "Rathalos Tail",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/342",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 70
                 },
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 20
                 },
                 {
                     "material": "Rathalos Marrow",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/344",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 7
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 3
@@ -222,21 +222,21 @@
             "palico_bonus": [
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 50
                 },
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 28
                 },
                 {
                     "material": "Wyvern Tear",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/606",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
                     "stack": 1,
                     "percentage": 22
@@ -245,28 +245,28 @@
             "plunderblade": [
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 42
                 },
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 31
                 },
                 {
                     "material": "Rathalos Webbing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/341",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 25
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 2
@@ -275,14 +275,14 @@
             "bandit_mantle": [
                 {
                     "material": "Large Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/541",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/lightbeige.png",
                     "stack": 1,
                     "percentage": 70
                 },
                 {
                     "material": "Beautiful Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/542",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/white.png",
                     "stack": 1,
                     "percentage": 30
@@ -291,56 +291,56 @@
             "hunt_bronze": [
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 24
                 },
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 19
                 },
                 {
                     "material": "Flame Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/163",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 1,
                     "percentage": 17
                 },
                 {
                     "material": "Rath Wingtalon",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/343",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 2,
                     "percentage": 10
                 },
                 {
                     "material": "Monster Bone+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/149",
                     "icon_url": "http:\/\/localhost\/images\/items\/bone\/beige.png",
                     "stack": 2,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Webbing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/341",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 9
                 },
                 {
                     "material": "Rathalos Tail",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/342",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 8
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 3
@@ -349,56 +349,56 @@
             "investigation_silver": [
                 {
                     "material": "Rathalos Webbing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/341",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 16
                 },
                 {
                     "material": "Rathalos Tail",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/342",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 16
                 },
                 {
                     "material": "Rath Wingtalon",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/343",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 2,
                     "percentage": 15
                 },
                 {
                     "material": "Rathalos Marrow",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/344",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 13
                 },
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 2,
                     "percentage": 12
                 },
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 2,
                     "percentage": 10
                 },
                 {
                     "material": "Flame Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/163",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 2,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 8
@@ -407,56 +407,56 @@
             "investigation_gold": [
                 {
                     "material": "Rathalos Webbing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/341",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 16
                 },
                 {
                     "material": "Rathalos Tail",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/342",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 16
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 16
                 },
                 {
                     "material": "Rath Wingtalon",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/343",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 2,
                     "percentage": 13
                 },
                 {
                     "material": "Rathalos Marrow",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/344",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 13
                 },
                 {
                     "material": "Rathalos Shell",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/340",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 3,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/339",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 3,
                     "percentage": 8
                 },
                 {
                     "material": "Flame Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/163",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 3,
                     "percentage": 8
@@ -467,7 +467,7 @@
             "track": [
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 100
@@ -476,42 +476,42 @@
             "carve_capture": [
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 34
                 },
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 24
                 },
                 {
                     "material": "Rathalos Wing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/348",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 20
                 },
                 {
                     "material": "Rathalos Medulla",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/349",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 14
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 7
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 1
@@ -520,28 +520,28 @@
             "wound_head": [
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 65
                 },
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 30
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 4
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 1
@@ -550,14 +550,14 @@
             "wound_wings": [
                 {
                     "material": "Rathalos Wing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/348",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 65
                 },
                 {
                     "material": "Rath Wingtalon",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/343",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 2,
                     "percentage": 35
@@ -566,21 +566,21 @@
             "wound_back": [
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 69
                 },
                 {
                     "material": "Rathalos Medulla",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/349",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 30
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 1
@@ -589,21 +589,21 @@
             "shiny_drop": [
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 50
                 },
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 28
                 },
                 {
                     "material": "Wyvern Tear",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/606",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
                     "stack": 1,
                     "percentage": 22
@@ -612,35 +612,35 @@
             "tail_carve": [
                 {
                     "material": "Rathalos Tail",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/342",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 66
                 },
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 20
                 },
                 {
                     "material": "Rathalos Medulla",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/349",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 7
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 5
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 2
@@ -649,21 +649,21 @@
             "palico_bonus": [
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 50
                 },
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 28
                 },
                 {
                     "material": "Wyvern Tear",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/606",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
                     "stack": 1,
                     "percentage": 22
@@ -672,28 +672,28 @@
             "plunderblade": [
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 42
                 },
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 31
                 },
                 {
                     "material": "Rathalos Wing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/348",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 26
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 1
@@ -702,14 +702,14 @@
             "bandit_mantle": [
                 {
                     "material": "Beautiful Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/542",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/white.png",
                     "stack": 1,
                     "percentage": 70
                 },
                 {
                     "material": "Lustrous Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/543",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/cyan.png",
                     "stack": 1,
                     "percentage": 30
@@ -718,49 +718,49 @@
             "hunt_bronze": [
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 27
                 },
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 21
                 },
                 {
                     "material": "Inferno Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/164",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 1,
                     "percentage": 18
                 },
                 {
                     "material": "Rathalos Wing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/348",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 12
                 },
                 {
                     "material": "Monster Hardbone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/151",
                     "icon_url": "http:\/\/localhost\/images\/items\/bone\/red.png",
                     "stack": 2,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Tail",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/342",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 9
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 3
@@ -769,49 +769,49 @@
             "investigation_silver": [
                 {
                     "material": "Rathalos Wing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/348",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 24
                 },
                 {
                     "material": "Rathalos Medulla",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/349",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 20
                 },
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 2,
                     "percentage": 14
                 },
                 {
                     "material": "Inferno Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/164",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 2,
                     "percentage": 14
                 },
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 2,
                     "percentage": 12
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 6
@@ -820,49 +820,49 @@
             "investigation_gold": [
                 {
                     "material": "Rathalos Wing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/348",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 23
                 },
                 {
                     "material": "Rathalos Medulla",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/349",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 20
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 13
                 },
                 {
                     "material": "Rathalos Carapace",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/347",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 3,
                     "percentage": 12
                 },
                 {
                     "material": "Inferno Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/164",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 3,
                     "percentage": 12
                 },
                 {
                     "material": "Rathalos Scale+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/346",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 3,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Plate",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/345",
                     "icon_url": "http:\/\/localhost\/images\/items\/plate\/red.png",
                     "stack": 1,
                     "percentage": 10
@@ -871,35 +871,35 @@
             "investigation_purple": [
                 {
                     "material": "Worn Feystone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/601",
                     "icon_url": "http:\/\/localhost\/images\/items\/feystone\/beige.png",
                     "stack": 1,
                     "percentage": 35
                 },
                 {
                     "material": "Glowing Feystone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/600",
                     "icon_url": "http:\/\/localhost\/images\/items\/feystone\/blue.png",
                     "stack": 1,
                     "percentage": 34
                 },
                 {
                     "material": "Warped Feystone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/602",
                     "icon_url": "http:\/\/localhost\/images\/items\/feystone\/red.png",
                     "stack": 1,
                     "percentage": 26
                 },
                 {
                     "material": "Sullied Streamstone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/603",
                     "icon_url": "http:\/\/localhost\/images\/items\/streamstone\/gray.png",
                     "stack": 1,
                     "percentage": 3
                 },
                 {
                     "material": "Shining Streamstone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/604",
                     "icon_url": "http:\/\/localhost\/images\/items\/streamstone\/gold.png",
                     "stack": 1,
                     "percentage": 2
@@ -910,7 +910,7 @@
             "track": [
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 100
@@ -919,42 +919,42 @@
             "carve_capture": [
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 34
                 },
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 24
                 },
                 {
                     "material": "Rathalos Fellwing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/841",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 20
                 },
                 {
                     "material": "Rathalos Medulla",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/349",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 14
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 7
                 },
                 {
                     "material": "Rathalos Mantle",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/844",
                     "icon_url": null,
                     "stack": 1,
                     "percentage": 1
@@ -963,28 +963,28 @@
             "wound_head": [
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 67
                 },
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 27
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 5
                 },
                 {
                     "material": "Rathalos Mantle",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/844",
                     "icon_url": null,
                     "stack": 1,
                     "percentage": 1
@@ -993,14 +993,14 @@
             "wound_wings": [
                 {
                     "material": "Rathalos Fellwing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/841",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 65
                 },
                 {
                     "material": "Rath Wingtalon+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/843",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 1,
                     "percentage": 35
@@ -1009,21 +1009,21 @@
             "wound_back": [
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 69
                 },
                 {
                     "material": "Rathalos Medulla",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/349",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 2,
                     "percentage": 30
                 },
                 {
                     "material": "Rathalos Mantle",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/844",
                     "icon_url": null,
                     "stack": 1,
                     "percentage": 1
@@ -1032,21 +1032,21 @@
             "shiny_drop": [
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 50
                 },
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 28
                 },
                 {
                     "material": "Large Wyvern Tear",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/607",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
                     "stack": 1,
                     "percentage": 22
@@ -1055,35 +1055,35 @@
             "tail_carve": [
                 {
                     "material": "Rathalos Lash",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/842",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 66
                 },
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 20
                 },
                 {
                     "material": "Rathalos Medulla",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/349",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/red.png",
                     "stack": 1,
                     "percentage": 7
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 5
                 },
                 {
                     "material": "Rathalos Mantle",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/844",
                     "icon_url": null,
                     "stack": 1,
                     "percentage": 2
@@ -1092,21 +1092,21 @@
             "palico_bonus": [
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 50
                 },
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 28
                 },
                 {
                     "material": "Large Wyvern Tear",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/607",
                     "icon_url": "http:\/\/localhost\/images\/items\/body\/blue.png",
                     "stack": 1,
                     "percentage": 22
@@ -1115,28 +1115,28 @@
             "plunderblade": [
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 42
                 },
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 31
                 },
                 {
                     "material": "Rathalos Fellwing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/841",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 26
                 },
                 {
                     "material": "Rathalos Mantle",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/844",
                     "icon_url": null,
                     "stack": 1,
                     "percentage": 1
@@ -1145,14 +1145,14 @@
             "bandit_mantle": [
                 {
                     "material": "Lustrous Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/543",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/cyan.png",
                     "stack": 1,
                     "percentage": 70
                 },
                 {
                     "material": "Glimmering Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/544",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/gold.png",
                     "stack": 1,
                     "percentage": 30
@@ -1161,49 +1161,49 @@
             "hunt_bronze": [
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 1,
                     "percentage": 27
                 },
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 21
                 },
                 {
                     "material": "Conflagrant Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/700",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 1,
                     "percentage": 18
                 },
                 {
                     "material": "Rathalos Fellwing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/841",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 12
                 },
                 {
                     "material": "Rath Wingtalon+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/843",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 2,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Lash",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/842",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 9
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 3
@@ -1212,56 +1212,56 @@
             "investigation_silver": [
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 2,
                     "percentage": 17
                 },
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 2,
                     "percentage": 15
                 },
                 {
                     "material": "Rathalos Fellwing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/841",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 15
                 },
                 {
                     "material": "Conflagrant Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/700",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 2,
                     "percentage": 14
                 },
                 {
                     "material": "Rathalos Lash",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/842",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 13
                 },
                 {
                     "material": "Rath Wingtalon+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/843",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 2,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Mantle",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/844",
                     "icon_url": null,
                     "stack": 1,
                     "percentage": 6
@@ -1270,56 +1270,56 @@
             "investigation_gold": [
                 {
                     "material": "Rathalos Fellwing",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/841",
                     "icon_url": "http:\/\/localhost\/images\/items\/wing\/red.png",
                     "stack": 1,
                     "percentage": 17
                 },
                 {
                     "material": "Rathalos Lash",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/842",
                     "icon_url": "http:\/\/localhost\/images\/items\/tail\/red.png",
                     "stack": 1,
                     "percentage": 16
                 },
                 {
                     "material": "Rathalos Mantle",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/844",
                     "icon_url": null,
                     "stack": 1,
                     "percentage": 13
                 },
                 {
                     "material": "Rathalos Cortex",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/840",
                     "icon_url": "http:\/\/localhost\/images\/items\/carapace\/red.png",
                     "stack": 3,
                     "percentage": 12
                 },
                 {
                     "material": "Conflagrant Sac",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/700",
                     "icon_url": "http:\/\/localhost\/images\/items\/sac\/red.png",
                     "stack": 3,
                     "percentage": 12
                 },
                 {
                     "material": "Rathalos Shard",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/782",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 3,
                     "percentage": 10
                 },
                 {
                     "material": "Rath Wingtalon+",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/843",
                     "icon_url": "http:\/\/localhost\/images\/items\/fang\/red.png",
                     "stack": 2,
                     "percentage": 10
                 },
                 {
                     "material": "Rathalos Ruby",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/350",
                     "icon_url": "http:\/\/localhost\/images\/items\/gem\/red.png",
                     "stack": 1,
                     "percentage": 10
@@ -1328,21 +1328,21 @@
             "investigation_purple": [
                 {
                     "material": "Carved Feystone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1067",
                     "icon_url": "http:\/\/localhost\/images\/items\/feystone\/green.png",
                     "stack": 1,
                     "percentage": 60
                 },
                 {
                     "material": "Ancient Feystone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1066",
                     "icon_url": "http:\/\/localhost\/images\/items\/feystone\/violet.png",
                     "stack": 1,
                     "percentage": 30
                 },
                 {
                     "material": "Sealed Feystone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1068",
                     "icon_url": "http:\/\/localhost\/images\/items\/feystone\/gold.png",
                     "stack": 1,
                     "percentage": 10
@@ -1351,14 +1351,14 @@
             "guiding_lands_low": [
                 {
                     "material": "Heavy Dragonvein Bone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1022",
                     "icon_url": "http:\/\/localhost\/images\/items\/bone\/gray.png",
                     "stack": 1,
                     "percentage": 63
                 },
                 {
                     "material": "King's Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1132",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 37
@@ -1367,14 +1367,14 @@
             "guiding_lands_mid": [
                 {
                     "material": "King's Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1132",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 63
                 },
                 {
                     "material": "Heavy Dragonvein Bone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1022",
                     "icon_url": "http:\/\/localhost\/images\/items\/bone\/gray.png",
                     "stack": 1,
                     "percentage": 37
@@ -1383,7 +1383,7 @@
             "guiding_lands_high": [
                 {
                     "material": "King's Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1132",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 100
@@ -1392,21 +1392,21 @@
             "guiding_lands_tempered": [
                 {
                     "material": "Tempered Red Scale",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1057",
                     "icon_url": "http:\/\/localhost\/images\/items\/scale\/red.png",
                     "stack": 1,
                     "percentage": 61
                 },
                 {
                     "material": "Spiritvein Solidbone",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1047",
                     "icon_url": "http:\/\/localhost\/images\/items\/bone\/beige.png",
                     "stack": 1,
                     "percentage": 30
                 },
                 {
                     "material": "Spiritvein Gem",
-                    "url": "",
+                    "url": "http:\/\/localhost\/api\/item\/1091",
                     "icon_url": "http:\/\/localhost\/images\/items\/streamstone\/white.png",
                     "stack": 1,
                     "percentage": 9

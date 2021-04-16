@@ -43,7 +43,7 @@ class WeaponRepository implements BaseRepository
             'upgradeMaterials' => $this->src->getUpgradeMaterials($id, $language),
             'upgrades' => $this->src->getUpgrades($id, $language),
             'ammo' => $this->src->getAmmo($id),
-            'melodies' => $details->notes ? $this->src->getMelodies($details->notes, $language) : false,
+            'melodies' => $details->notes ? $this->src->getMelodies($details->notes, $language) : null,
         ];
     }
 }

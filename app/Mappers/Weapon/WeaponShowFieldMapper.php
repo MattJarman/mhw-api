@@ -269,7 +269,7 @@ class WeaponShowFieldMapper extends BaseMapper
     {
         $mappedSkills = [];
         foreach ($skills as $skill) {
-            $skills[] = [
+            $mappedSkills[] = [
                 'name' => $skill->name,
                 'level' => (int) $skill->level,
                 'max_level' => (int) $skill->max_level,
