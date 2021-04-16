@@ -204,7 +204,7 @@ class MonsterShowFieldMapper extends BaseMapper
 
             $mappedRewards[$rankName][$conditionName][] = [
                 'material' => $reward->name,
-                'url' => '', // TODO: Add item url
+                'url' => route('item.show', $reward->id),
                 'icon_url' => $reward->icon_name
                     ? $this->getItemIconUrl($reward->icon_name, $reward->icon_color)
                     : null,

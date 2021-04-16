@@ -1,0 +1,62 @@
+{
+    "name": "Proto Commission Axe I",
+    "type": "charge-blade",
+    "rarity": 1,
+    "icon": "http:\/\/localhost\/images\/equipment\/charge-blade\/1.png",
+    "category": null,
+    "attack": 288,
+    "true_attack": 80,
+    "affinity": 0,
+    "defense": 0,
+    "elderseal": null,
+    "slots": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0
+    },
+    "elements": [],
+    "sharpness": {
+        "maxed": false,
+        "values": {
+            "red": 90,
+            "orange": 50,
+            "yellow": 80,
+            "green": 30,
+            "blue": 0,
+            "white": 0,
+            "purple": 0
+        }
+    },
+    "skills": [],
+    "crafting": {
+        "is_craftable": true,
+        "is_final": false,
+        "crafting_cost": [
+            {
+                "id": 115,
+                "name": "Iron Ore",
+                "quantity": 1,
+                "url": "http:\/\/localhost\/api\/item\/115",
+                "icon_url": "http:\/\/localhost\/images\/items\/ore\/gray.png"
+            }
+        ],
+        "upgrade_cost": [],
+        "previous_weapon": false,
+        "upgrades": [
+            {
+                "id": 757,
+                "name": "Proto Commission Axe II",
+                "url": "http:\/\/localhost\/api\/weapon\/757"
+            }
+        ]
+    },
+    "kinsect_bonus": false,
+    "phial": {
+        "type": "impact",
+        "power": 0
+    },
+    "shelling": false,
+    "coatings": false,
+    "ammo": false,
+    "melodies": false
+}

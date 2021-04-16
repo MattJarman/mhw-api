@@ -1,0 +1,276 @@
+{
+    "name": "Chain Blitz I",
+    "type": "light-bowgun",
+    "rarity": 1,
+    "icon": "http:\/\/localhost\/images\/equipment\/light-bowgun\/1.png",
+    "category": null,
+    "attack": 130,
+    "true_attack": 100,
+    "affinity": 0,
+    "defense": 0,
+    "elderseal": null,
+    "slots": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0
+    },
+    "elements": [],
+    "sharpness": false,
+    "skills": [],
+    "crafting": {
+        "is_craftable": true,
+        "is_final": false,
+        "crafting_cost": [
+            {
+                "id": 115,
+                "name": "Iron Ore",
+                "quantity": 1,
+                "url": "http:\/\/localhost\/api\/item\/115",
+                "icon_url": "http:\/\/localhost\/images\/items\/ore\/gray.png"
+            }
+        ],
+        "upgrade_cost": [],
+        "previous_weapon": false,
+        "upgrades": [
+            {
+                "id": 913,
+                "name": "Chain Blitz II",
+                "url": "http:\/\/localhost\/api\/weapon\/913"
+            }
+        ]
+    },
+    "kinsect_bonus": false,
+    "phial": false,
+    "shelling": false,
+    "coatings": false,
+    "ammo": {
+        "deviation": 1,
+        "special": "Wyvernblast",
+        "normal": {
+            "normal_1": {
+                "clip": 6,
+                "rapid": 1,
+                "recoil": 2,
+                "reload": "fast"
+            },
+            "normal_2": {
+                "clip": 4,
+                "rapid": 0,
+                "recoil": 2,
+                "reload": "normal"
+            },
+            "normal_3": {
+                "clip": 3,
+                "rapid": 0,
+                "recoil": 3,
+                "reload": "normal"
+            }
+        },
+        "pierce": {
+            "pierce_1": {
+                "clip": 5,
+                "rapid": 0,
+                "recoil": 2,
+                "reload": "normal"
+            },
+            "pierce_2": {
+                "clip": 3,
+                "rapid": 0,
+                "recoil": 3,
+                "reload": "slow"
+            },
+            "pierce_3": {
+                "clip": 2,
+                "rapid": 0,
+                "recoil": 4,
+                "reload": "slow"
+            }
+        },
+        "spread": {
+            "spread_1": {
+                "clip": 4,
+                "rapid": 0,
+                "recoil": 3,
+                "reload": "normal"
+            },
+            "spread_2": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            },
+            "spread_3": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            }
+        },
+        "sticky": {
+            "sticky_1": {
+                "clip": 2,
+                "rapid": 0,
+                "recoil": 4,
+                "reload": "slow"
+            },
+            "sticky_2": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            },
+            "sticky_3": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            }
+        },
+        "cluster": {
+            "cluster_1": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            },
+            "cluster_2": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            },
+            "cluster_3": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            }
+        },
+        "recover": {
+            "recover_1": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            },
+            "recover_2": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            }
+        },
+        "poison": {
+            "poison_1": {
+                "clip": 5,
+                "rapid": 0,
+                "recoil": 2,
+                "reload": "normal"
+            },
+            "poison_2": {
+                "clip": 5,
+                "rapid": 0,
+                "recoil": 2,
+                "reload": "normal"
+            }
+        },
+        "paralysis": {
+            "paralysis_1": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            },
+            "paralysis_2": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            }
+        },
+        "sleep": {
+            "sleep_1": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            },
+            "sleep_2": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            }
+        },
+        "exhaust": {
+            "exhaust_1": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            },
+            "exhaust_2": {
+                "clip": 0,
+                "rapid": 0,
+                "recoil": 0,
+                "reload": null
+            }
+        },
+        "flaming": {
+            "clip": 0,
+            "rapid": 0,
+            "recoil": 0,
+            "reload": null
+        },
+        "water": {
+            "clip": 0,
+            "rapid": 0,
+            "recoil": 0,
+            "reload": null
+        },
+        "freeze": {
+            "clip": 0,
+            "rapid": 0,
+            "recoil": 0,
+            "reload": null
+        },
+        "thunder": {
+            "clip": 0,
+            "rapid": 0,
+            "recoil": 0,
+            "reload": null
+        },
+        "dragon": {
+            "clip": 0,
+            "rapid": 0,
+            "recoil": 0,
+            "reload": null
+        },
+        "slicing": {
+            "clip": 1,
+            "rapid": 0,
+            "recoil": 3,
+            "reload": "slow"
+        },
+        "wyvern": {
+            "clip": 0,
+            "reload": null
+        },
+        "demon": {
+            "clip": 0,
+            "recoil": 0,
+            "reload": null
+        },
+        "armor": {
+            "clip": 0,
+            "recoil": 0,
+            "reload": null
+        },
+        "tranq": {
+            "clip": 2,
+            "recoil": 3,
+            "reload": "normal"
+        }
+    },
+    "melodies": false
+}

@@ -1,0 +1,200 @@
+{
+    "name": "Metal Bagpipe I",
+    "type": "hunting-horn",
+    "rarity": 1,
+    "icon": "http:\/\/localhost\/images\/equipment\/hunting-horn\/1.png",
+    "category": null,
+    "attack": 336,
+    "true_attack": 80,
+    "affinity": 0,
+    "defense": 0,
+    "elderseal": null,
+    "slots": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0
+    },
+    "elements": [],
+    "sharpness": {
+        "maxed": false,
+        "values": {
+            "red": 100,
+            "orange": 50,
+            "yellow": 80,
+            "green": 20,
+            "blue": 0,
+            "white": 0,
+            "purple": 0
+        }
+    },
+    "skills": [],
+    "crafting": {
+        "is_craftable": true,
+        "is_final": false,
+        "crafting_cost": [
+            {
+                "id": 115,
+                "name": "Iron Ore",
+                "quantity": 1,
+                "url": "http:\/\/localhost\/api\/item\/115",
+                "icon_url": "http:\/\/localhost\/images\/items\/ore\/gray.png"
+            }
+        ],
+        "upgrade_cost": [],
+        "previous_weapon": false,
+        "upgrades": [
+            {
+                "id": 430,
+                "name": "Metal Bagpipe II",
+                "url": "http:\/\/localhost\/api\/weapon\/430"
+            }
+        ]
+    },
+    "kinsect_bonus": false,
+    "phial": false,
+    "shelling": false,
+    "coatings": false,
+    "ammo": false,
+    "melodies": [
+        {
+            "name": "Self-improvement",
+            "notes": "WW",
+            "effect_1": "Movement Speed Up",
+            "effect_2": "Attack Up + Deflected Attack Prevention",
+            "base": {
+                "duration": 180,
+                "extension": 90
+            },
+            "maestro": {
+                "level_1": {
+                    "duration": 240,
+                    "extension": 120
+                },
+                "level_2": {
+                    "duration": 300,
+                    "extension": 150
+                }
+            }
+        },
+        {
+            "name": "Attack Up (S)",
+            "notes": "WRR",
+            "effect_1": "Attack Up (S)",
+            "effect_2": "Attack Up (L)",
+            "base": {
+                "duration": 120,
+                "extension": 60
+            },
+            "maestro": {
+                "level_1": {
+                    "duration": 150,
+                    "extension": 90
+                },
+                "level_2": {
+                    "duration": 180,
+                    "extension": 120
+                }
+            }
+        },
+        {
+            "name": "Health Boost (S)",
+            "notes": "RBW",
+            "effect_1": "Health Boost (S)",
+            "effect_2": "Health Boost Extended",
+            "base": {
+                "duration": 180,
+                "extension": 120
+            },
+            "maestro": {
+                "level_1": {
+                    "duration": 240,
+                    "extension": 180
+                },
+                "level_2": {
+                    "duration": 300,
+                    "extension": 240
+                }
+            }
+        },
+        {
+            "name": "Wind Pressure Negated",
+            "notes": "BBR",
+            "effect_1": "Wind Pressure Negated",
+            "effect_2": "Wind Pressure Negation Extended",
+            "base": {
+                "duration": 180,
+                "extension": 90
+            },
+            "maestro": {
+                "level_1": {
+                    "duration": 240,
+                    "extension": 120
+                },
+                "level_2": {
+                    "duration": 300,
+                    "extension": 150
+                }
+            }
+        },
+        {
+            "name": "Defense Up (S)",
+            "notes": "WBB",
+            "effect_1": "Defense Up (S)",
+            "effect_2": "Defense Up (L)",
+            "base": {
+                "duration": 120,
+                "extension": 60
+            },
+            "maestro": {
+                "level_1": {
+                    "duration": 150,
+                    "extension": 90
+                },
+                "level_2": {
+                    "duration": 180,
+                    "extension": 120
+                }
+            }
+        },
+        {
+            "name": "Impact Echo Wave",
+            "notes": "ER",
+            "effect_1": "Impact Echo Wave",
+            "effect_2": "N\/A",
+            "base": {
+                "duration": 0,
+                "extension": 0
+            },
+            "maestro": {
+                "level_1": {
+                    "duration": 0,
+                    "extension": 0
+                },
+                "level_2": {
+                    "duration": 0,
+                    "extension": 0
+                }
+            }
+        },
+        {
+            "name": "Max Stamina Up + Recovery",
+            "notes": "EB",
+            "effect_1": "Max Stamina Up + Recovery",
+            "effect_2": "N\/A",
+            "base": {
+                "duration": 180,
+                "extension": 0
+            },
+            "maestro": {
+                "level_1": {
+                    "duration": 240,
+                    "extension": 0
+                },
+                "level_2": {
+                    "duration": 300,
+                    "extension": 0
+                }
+            }
+        }
+    ]
+}
