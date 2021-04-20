@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 
 case "$1" in
+"up")
+    shift
+    docker-compose up -d
+    ;;
+"down")
+    shift
+    docker-compose down
+    ;;
 "phpcs")
     shift
     docker-compose run --rm --user "$(id -u)":"$(id -g)" mhw-php ./vendor/bin/phpcs "$@"
