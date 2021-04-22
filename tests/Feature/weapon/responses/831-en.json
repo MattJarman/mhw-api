@@ -2,7 +2,7 @@
     "name": "Iron Blade I",
     "type": "insect-glaive",
     "rarity": 1,
-    "icon": "http:\/\/localhost\/images\/equipment\/insect-glaive\/1.png",
+    "icon": "http:\/\/localhost:8989\/images\/equipment\/insect-glaive\/1.png",
     "category": null,
     "attack": 248,
     "true_attack": 80,
@@ -36,8 +36,8 @@
                 "id": 115,
                 "name": "Iron Ore",
                 "quantity": 1,
-                "url": "http:\/\/localhost\/api\/item\/115",
-                "icon_url": "http:\/\/localhost\/images\/items\/ore\/gray.png"
+                "url": "http:\/\/localhost:8989\/api\/item\/115",
+                "icon_url": "http:\/\/localhost:8989\/images\/items\/ore\/gray.png"
             }
         ],
         "upgrade_cost": [],
@@ -46,7 +46,7 @@
             {
                 "id": 832,
                 "name": "Iron Blade II",
-                "url": "http:\/\/localhost\/api\/weapon\/832"
+                "url": "http:\/\/localhost:8989\/api\/weapon\/832"
             }
         ]
     },

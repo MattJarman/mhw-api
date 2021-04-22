@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "Buster Sword I",
+        "type": "great-sword",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/1"
+    },
+    {
+        "id": 89,
+        "name": "Iron Katana I",
+        "type": "long-sword",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/89"
+    },
+    {
+        "id": 170,
+        "name": "Hunter's Knife I",
+        "type": "sword-and-shield",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/170"
+    },
+    {
+        "id": 262,
+        "name": "Matched Slicers I",
+        "type": "dual-blades",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/262"
+    },
+    {
+        "id": 345,
+        "name": "Iron Hammer I",
+        "type": "hammer",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/345"
+    },
+    {
+        "id": 429,
+        "name": "Metal Bagpipe I",
+        "type": "hunting-horn",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/429"
+    },
+    {
+        "id": 514,
+        "name": "Iron Lance I",
+        "type": "lance",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/514"
+    },
+    {
+        "id": 598,
+        "name": "Iron Gunlance I",
+        "type": "gunlance",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/598"
+    },
+    {
+        "id": 677,
+        "name": "Proto Iron Axe I",
+        "type": "switch-axe",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/677"
+    },
+    {
+        "id": 756,
+        "name": "Proto Commission Axe I",
+        "type": "charge-blade",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/756"
+    },
+    {
+        "id": 831,
+        "name": "Iron Blade I",
+        "type": "insect-glaive",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/831"
+    },
+    {
+        "id": 912,
+        "name": "Chain Blitz I",
+        "type": "light-bowgun",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/912"
+    },
+    {
+        "id": 996,
+        "name": "Iron Assault I",
+        "type": "heavy-bowgun",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/996"
+    },
+    {
+        "id": 1075,
+        "name": "Iron Bow I",
+        "type": "bow",
+        "rarity": 1,
+        "url": "http://localhost:8989/api/weapon/1075"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Aptonoth",
+        "size": "small",
+        "species": null,
+        "url": "http:\//localhost:8989/api/monster/1"
+    },
+    {
+        "id": 17,
+        "name": "Great Jagras",
+        "size": "large",
+        "species": "Fanged Wyvern",
+        "url": "http://localhost:8989/api/monster/17"
+    },
+    {
+        "id": 31,
+        "name": "Rathalos",
+        "size": "large",
+        "species": "Flying Wyvern",
+        "url": "http://localhost:8989/api/monster/31"
+    },
+    {
+        "id": 144,
+        "name": "Alatreon",
+        "size": "large",
+        "species": "Elder Dragon",
+        "url": "http://localhost:8989/api/monster/144"
+    }
+]

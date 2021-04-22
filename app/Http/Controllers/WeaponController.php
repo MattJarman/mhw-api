@@ -20,6 +20,11 @@ class WeaponController extends Controller
         $this->weaponRepository = $weaponRepository;
     }
 
+    /**
+     * @group Weapon
+     * @queryParam language string The language for names and descriptions. Defaults to 'en'.
+     * @responseFile storage/responses/weapon/index.json
+     */
     public function index(): JsonResponse
     {
         $index = $this->weaponRepository->index(App::getLocale());
@@ -28,6 +33,14 @@ class WeaponController extends Controller
         return new JsonResponse($response);
     }
 
+    /**
+     * @param WeaponShowRequest $request
+     *
+     * @group Weapon
+     * @urlParam weapon integer required The ID of the weapon.
+     * @queryParam language string The language for names and descriptions. Defaults to 'en'.
+     * @responseFile storage/responses/weapon/show.json
+     */
     public function show(WeaponShowRequest $request): JsonResponse
     {
         $weapon = $this->weaponRepository->show((int) $request->route('weapon'), App::getLocale());

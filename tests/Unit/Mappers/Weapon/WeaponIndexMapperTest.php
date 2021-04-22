@@ -25,7 +25,7 @@ class WeaponIndexMapperTest extends TestCase
                 'name' => self::WEAPON['name'],
                 'type' => self::WEAPON['type'],
                 'rarity' => (int) self::WEAPON['rarity'],
-                'url' => 'http://localhost/api/weapon/' . self::WEAPON['id'],
+                'url' => config('app.url') . '/api/weapon/' . self::WEAPON['id'],
             ],
         ];
 

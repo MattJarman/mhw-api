@@ -25,7 +25,7 @@ class MonsterIndexMapperTest extends TestCase
                 'name' => self::MONSTER['name'],
                 'size' => self::MONSTER['size'],
                 'species' => self::MONSTER['ecology'],
-                'url' => 'http://localhost/api/monster/' . self::MONSTER['id'],
+                'url' => config('app.url') . '/api/monster/' . self::MONSTER['id'],
             ],
         ];
 

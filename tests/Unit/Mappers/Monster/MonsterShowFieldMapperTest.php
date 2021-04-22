@@ -275,7 +275,7 @@ class MonsterShowFieldMapperTest extends TestCase
                 'track' => [
                     [
                         'material' => 'Rathalos Scale',
-                        'url' => 'http://localhost/api/item/1',
+                        'url' => 'http://localhost:8989/api/item/1',
                         'icon_url' => url('/images/items/scale/red.png'),
                         'stack' => 1,
                         'percentage' => 100,
@@ -286,7 +286,7 @@ class MonsterShowFieldMapperTest extends TestCase
                 'investigation_silver' => [
                     [
                         'material' => 'Conflagrant Sac',
-                        'url' => 'http://localhost/api/item/2',
+                        'url' => 'http://localhost:8989/api/item/2',
                         'icon_url' => url('/images/items/sac/red.png'),
                         'stack' => 2,
                         'percentage' => 30,
@@ -308,7 +308,7 @@ class MonsterShowFieldMapperTest extends TestCase
                 'track' => [
                     [
                         'material' => 'Rathalos Scale',
-                        'url' => 'http://localhost/api/item/1',
+                        'url' => 'http://localhost:8989/api/item/1',
                         'icon_url' => null,
                         'stack' => 1,
                         'percentage' => 100,
@@ -319,7 +319,7 @@ class MonsterShowFieldMapperTest extends TestCase
                 'investigation_silver' => [
                     [
                         'material' => 'Conflagrant Sac',
-                        'url' => 'http://localhost/api/item/2',
+                        'url' => 'http://localhost:8989/api/item/2',
                         'icon_url' => url('/images/items/sac/red.png'),
                         'stack' => 2,
                         'percentage' => 30,

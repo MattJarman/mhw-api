@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Potion",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/1"
+    },
+    {
+        "id": 2,
+        "name": "Mega Potion",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/2"
+    },
+    {
+        "id": 3,
+        "name": "Max Potion",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/3"
+    },
+    {
+        "id": 4,
+        "name": "Ancient Potion",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/4"
+    },
+    {
+        "id": 5,
+        "name": "Antidote",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/5"
+    },
+    {
+        "id": 6,
+        "name": "Herbal Medicine",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/6"
+    },
+    {
+        "id": 7,
+        "name": "Nulberry",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/7"
+    },
+    {
+        "id": 8,
+        "name": "Energy Drink",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/8"
+    },
+    {
+        "id": 9,
+        "name": "Ration",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/9"
+    },
+    {
+        "id": 10,
+        "name": "Rare Steak",
+        "category": "item",
+        "url": "http://localhost:8989/api/item/10"
+    }
+]
