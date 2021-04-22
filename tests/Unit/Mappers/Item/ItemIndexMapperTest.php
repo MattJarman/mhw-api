@@ -23,7 +23,7 @@ class ItemIndexMapperTest extends TestCase
                 'id' => 1,
                 'name' => 'Potion',
                 'category' => 'item',
-                'url' => 'http://localhost/api/item/' . self::ITEM['id'],
+                'url' => config('app.url') . '/api/item/' . self::ITEM['id'],
             ],
         ];
 

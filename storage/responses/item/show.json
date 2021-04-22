@@ -1,0 +1,22 @@
+{
+    "name": "Potion",
+    "icon": "http://localhost:8989/images/items/liquid/green.png",
+    "category": "item",
+    "sub_category": null,
+    "rarity": 1,
+    "prices": {
+        "buy": 66,
+        "sell": 8
+    },
+    "carry_limit": 10,
+    "research_points": 0,
+    "recipes": [
+        {
+            "first_ingredient": {
+                "name": "Herb",
+                "url": "http://localhost:8989/api/item/32"
+            },
+            "second_ingredient": null
+        }
+    ]
+}

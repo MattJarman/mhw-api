@@ -1,6 +1,6 @@
 {
     "name": "Ancient Potion",
-    "icon": "http:\/\/localhost\/images\/items\/pellets\/gold.png",
+    "icon": "http:\/\/localhost:8989\/images\/items\/pellets\/gold.png",
     "category": "item",
     "sub_category": null,
     "rarity": 5,
@@ -14,21 +14,21 @@
         {
             "first_ingredient": {
                 "name": "Immunizer",
-                "url": "http:\/\/localhost\/api\/item\/16"
+                "url": "http:\/\/localhost:8989\/api\/item\/16"
             },
             "second_ingredient": {
                 "name": "Kelbi Horn",
-                "url": "http:\/\/localhost\/api\/item\/54"
+                "url": "http:\/\/localhost:8989\/api\/item\/54"
             }
         },
         {
             "first_ingredient": {
                 "name": "Nourishing Extract",
-                "url": "http:\/\/localhost\/api\/item\/56"
+                "url": "http:\/\/localhost:8989\/api\/item\/56"
             },
             "second_ingredient": {
                 "name": "Kelbi Horn",
-                "url": "http:\/\/localhost\/api\/item\/54"
+                "url": "http:\/\/localhost:8989\/api\/item\/54"
             }
         }
     ]

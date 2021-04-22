@@ -20,7 +20,7 @@ class SetLocale
      */
     public function handle(Request $request, Closure $next): mixed
     {
-        if ($request->has('language')) {
+        if ($request->get('language')) {
             $request->validate(['language' => 'exists:language,id']);
             App::setLocale($request->get('language'));
         }

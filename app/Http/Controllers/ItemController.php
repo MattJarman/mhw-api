@@ -20,6 +20,11 @@ class ItemController extends Controller
         $this->itemRepository = $itemRepository;
     }
 
+    /**
+     * @group Item
+     * @queryParam language string The language for names and descriptions. Defaults to 'en'.
+     * @responseFile storage/responses/item/index.json
+     */
     public function index(): JsonResponse
     {
         $index = $this->itemRepository->index(App::getLocale());
@@ -28,6 +33,14 @@ class ItemController extends Controller
         return new JsonResponse($response);
     }
 
+    /**
+     * @param ItemShowRequest $request
+     *
+     * @group Item
+     * @urlParam item integer required The ID of the item.
+     * @queryParam language string The language for names and descriptions. Defaults to 'en'.
+     * @responseFile storage/responses/item/show.json
+     */
     public function show(ItemShowRequest $request): JsonResponse
     {
         $item = $this->itemRepository->show((int) $request->route('item'), App::getLocale());

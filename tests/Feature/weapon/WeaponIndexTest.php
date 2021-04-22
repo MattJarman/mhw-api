@@ -20,7 +20,7 @@ class WeaponIndexTest extends TestCase
             'name' => 'Buster Sword I',
             'type' => 'great-sword',
             'rarity' => 1,
-            'url' => 'http://localhost/api/weapon/1',
+            'url' => config('app.url') . '/api/weapon/1',
         ];
 
         self::assertNotEmpty($response->getOriginalContent());
@@ -39,7 +39,7 @@ class WeaponIndexTest extends TestCase
             'name' => 'バスターソードⅠ',
             'type' => 'great-sword',
             'rarity' => 1,
-            'url' => 'http://localhost/api/weapon/1',
+            'url' => config('app.url') . '/api/weapon/1',
         ];
 
         self::assertNotEmpty($response->getOriginalContent());

@@ -20,6 +20,11 @@ class MonsterController extends Controller
         $this->monsterRepository = $monsterRepository;
     }
 
+    /**
+     * @group Monster
+     * @queryParam language string The language for names and descriptions. Defaults to 'en'.
+     * @responseFile storage/responses/monster/index.json
+     */
     public function index(): JsonResponse
     {
         $index = $this->monsterRepository->index(App::getLocale());
@@ -28,6 +33,14 @@ class MonsterController extends Controller
         return new JsonResponse($response);
     }
 
+    /**
+     * @param MonsterShowRequest $request
+     *
+     * @group Monster
+     * @urlParam monster integer required The ID of the monster.
+     * @queryParam language string The language for names and descriptions. Defaults to 'en'.
+     * @responseFile storage/responses/monster/show.json
+     */
     public function show(MonsterShowRequest $request): JsonResponse
     {
         $monster = $this->monsterRepository->show((int) $request->route('monster'), App::getLocale());

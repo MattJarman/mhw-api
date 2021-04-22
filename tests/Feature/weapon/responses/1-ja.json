@@ -2,7 +2,7 @@
     "name": "\u30d0\u30b9\u30bf\u30fc\u30bd\u30fc\u30c9\u2160",
     "type": "great-sword",
     "rarity": 1,
-    "icon": "http:\/\/localhost\/images\/equipment\/great-sword\/1.png",
+    "icon": "http:\/\/localhost:8989\/images\/equipment\/great-sword\/1.png",
     "category": null,
     "attack": 384,
     "true_attack": 80,
@@ -36,8 +36,8 @@
                 "id": 115,
                 "name": "\u9244\u9271\u77f3",
                 "quantity": 1,
-                "url": "http:\/\/localhost\/api\/item\/115",
-                "icon_url": "http:\/\/localhost\/images\/items\/ore\/gray.png"
+                "url": "http:\/\/localhost:8989\/api\/item\/115",
+                "icon_url": "http:\/\/localhost:8989\/images\/items\/ore\/gray.png"
             }
         ],
         "upgrade_cost": [],
@@ -46,7 +46,7 @@
             {
                 "id": 2,
                 "name": "\u30d0\u30b9\u30bf\u30fc\u30bd\u30fc\u30c9\u2161",
-                "url": "http:\/\/localhost\/api\/weapon\/2"
+                "url": "http:\/\/localhost:8989\/api\/weapon\/2"
             }
         ]
     },

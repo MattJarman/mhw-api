@@ -11,6 +11,7 @@
     <exclude-pattern>*/vendor/*</exclude-pattern>
     <exclude-pattern>*/public/*</exclude-pattern>
     <exclude-pattern>*/storage/*</exclude-pattern>
+    <exclude-pattern>*/config/*</exclude-pattern>
     <rule ref="Doctrine">
         <exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly"/>
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
