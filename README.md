@@ -8,6 +8,7 @@ To run this project, you'll need the following:
 
 * [Git](https://git-scm.com/downloads)
 * [Docker Compose](https://docs.docker.com/compose/)
+* [MHWorldData DB](https://github.com/gatheringhallstudios/MHWorldData/releases)
 
 To set up the project, you can run `install.sh` located in the `scripts` directory.
 
@@ -17,6 +18,9 @@ $ ./scripts/install.sh
 
 This script will initialise the .env file, install dependencies, and generate an app key if this is your first time
 installing the project.
+
+In addition to this, you will also need to place the downloaded MHWorldData SQLite database into the root 
+of the`database` folder in the root of the project. Ensure the file is named `database.sqlite`.
 
 ### Helper Script
 
