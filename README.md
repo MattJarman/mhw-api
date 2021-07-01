@@ -2,6 +2,8 @@
 
 An API for data relating to the video game Monster Hunter: World.
 
+The data used for this project is provided by [MHWorldData](https://github.com/gatheringhallstudios/MHWorldData).
+
 ## Development
 
 To run this project, you'll need the following:
